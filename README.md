@@ -3,3 +3,4 @@ GitHub Pages : You will maintain a professional-grade blog titled with your full
 
 * [Homework 1](../master/CSCI%20362%20HomeWork1.docx)
 * [Homework 2](../master/Reflection1.docx)
+* [Homework 3](../master/homework3.docx)
