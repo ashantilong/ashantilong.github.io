@@ -8,6 +8,8 @@ GitHub Pages : You will maintain a professional-grade blog titled with your full
 - Dependability and security
 - Efficiency
 - Acceptability/Usability
+
+
 **1.4 The four most important attributes are essentially maintainability, dependability, efficiency (performance) and usability. Other attributes that may be significant could be reusability (can it be reused in other applications), distributability (can it be distributed over a network of processors), portability (can it operate on multiple platforms e.g laptop and mobile platforms) and inter-operability (can it work with a wide range of other software systems).
 Other attributes that are also significant are:**
 - Response time (non-functional attribute)
