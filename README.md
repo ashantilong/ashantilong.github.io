@@ -16,6 +16,8 @@ Other attributes that are also significant are:**
 - Interactivity
 - Reliable
 - Evolution
+
+
 **1.8 Discuss whether professional software engineers should be licensed in the same way as doctors or
 lawyers.**
 -I believe that professional engineers should be certified in the same ways as doctors and lawyers because like doctors and lawyers you understand who has the right credential. Software is extremely important in today’s world and it is increasing higher than any occupation . For instance, high security government software should not be made by just any guy with some knowledge of programs. We should have a way to differentiate between the people who should be in charge of creating and fixing critical programs and those who aren’t quite ready for that type of responsibility
