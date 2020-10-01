@@ -87,7 +87,7 @@
  </div>
 
 
- ### 11.9 Explain why you should explicitly handle all exceptions in a system that is intended to have a high level of availability
+### 11.9 Explain why you should explicitly handle all exceptions in a system that is intended to have a high level of availability
 
 
  <div style = "color:red"> 
@@ -99,7 +99,7 @@
 
 
 
-  ### 12.5 A train protection system automatically applies the brakes of a train if the speed limit for a segment of track is exceeded, or if the train enters a track segment that is currently signaled with a red light (i.e., the segment should not be entered). There are two critical-safety requirements for this train protection system: The train shall not enter a segment of track that is signaled with a red light. The train shall not exceed the specified speed limit for a section of track. Assuming that the signal status and the speed limit for the track segment are transmitted to on-board software on the train before it enters the track segment, propose five possible functional system requirements for the onboard software that may be generated from the system safety requirements.
+### 12.5 A train protection system automatically applies the brakes of a train if the speed limit for a segment of track is exceeded, or if the train enters a track segment that is currently signaled with a red light (i.e., the segment should not be entered). There are two critical-safety requirements for this train protection system: The train shall not enter a segment of track that is signaled with a red light. The train shall not exceed the specified speed limit for a section of track. Assuming that the signal status and the speed limit for the track segment are transmitted to on-board software on the train before it enters the track segment, propose five possible functional system requirements for the onboard software that may be generated from the system safety requirements.
 
 
  <div style = "color:red">   
