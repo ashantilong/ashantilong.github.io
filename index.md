@@ -25,8 +25,7 @@
     Evolution
   
 </div>
-
-  ###1.8 Discuss whether professional software engineers should be licensed in the same way as doctors or lawyers. 
+### 1.8 Discuss whether professional software engineers should be licensed in the same way as doctors or lawyers. 
 
 <div style = "color:red">
   
@@ -35,7 +34,7 @@
 </div>
 
 
- ### 1.9: For each of the clauses in the ACM/IEEE Code of Ethics shown in Figure 1.4, propose an appropriate example that illustrates that clause. -PUBLIC – Software engineers shall act consistently with the public interest. A software engineer will create non-malicious software that is robust enough to maintain the welfare of its stakeholders.
+### 1.9: For each of the clauses in the ACM/IEEE Code of Ethics shown in Figure 1.4, propose an appropriate example that illustrates that clause. -PUBLIC – Software engineers shall act consistently with the public interest. A software engineer will create non-malicious software that is robust enough to maintain the welfare of its stakeholders.
 
 
 <div style = "color:red">
