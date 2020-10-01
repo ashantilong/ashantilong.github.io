@@ -1,7 +1,3 @@
-<p>
-GitHub Pages : You will maintain a professional-grade blog titled with your full name where you will post all individual assignments by the date specified. Your team will maintain a professional-quality wiki where you will post all team assignments by the date specified. Each assignment must be professional in appearance with pertinent identifying information
-</p>
-
 <p><b> HW0 </b> </p>
 <p>My is Ashanti Long and I am a junior at the College of Chareston. I getting my Bachelor of Science in Computer Science and Math</p>
 
