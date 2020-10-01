@@ -1,48 +1,48 @@
-<p><b> HW0 </b> </p>
+# HW0
 <p>My is Ashanti Long and I am a junior at the College of Chareston. I getting my Bachelor of Science in Computer Science and Math</p>
 
 
-<p><b>HW1: Chapter 1</b></p>
+# HW1: Chapter 1
 
-<p>1.3 Four important attributes of professional software are:</p>
+1.3 Four important attributes of professional software are:</p>
 
 <div style = "color:red">
-  <p>
+  
     Maintainability
     Dependability and security
     Efficiency
     Acceptability/Usability
-  </p>
+  
 
 </div>
-<p>
+
   1.4 The four most important attributes are essentially maintainability, dependability, efficiency (performance) and usability. Other attributes that may be significant could be reusability (can it be reused in other applications), distributability (can it be distributed over a network of processors), portability (can it operate on multiple platforms e.g laptop and mobile platforms) and inter-operability (can it work with a wide range of other software systems). Other attributes that are also significant are:
-</p>
+
 
 
 <div style = "color:red">
-  <p>
+  
     Response time (non-functional attribute)
     Interactivity
     Reliable
     Evolution
-  </p>
+  
 </div>
-<p>
+
   1.8 Discuss whether professional software engineers should be licensed in the same way as doctors or lawyers. 
-</p>
+
 <div style = "color:red">
-  <p>
+  
     -I believe that professional engineers should be certified in the same ways as doctors and lawyers because like doctors and lawyers you understand who has the right credential. Software is extremely important in today’s world and it is increasing higher than any occupation . For instance, high security government software should not be made by just any guy with some knowledge of programs. We should have a way to differentiate between the people who should be in charge of creating and fixing critical programs and those who aren’t quite ready for that type of responsibility
-  </p>
+  
 </div>
 
-<p>
+
   1.9: For each of the clauses in the ACM/IEEE Code of Ethics shown in Figure 1.4, propose an appropriate example that illustrates that clause. -PUBLIC – Software engineers shall act consistently with the public interest. A software engineer will create non-malicious software that is robust enough to maintain the welfare of its stakeholders.
-</p>
+
 
 <div style = "color:red">
-  <p>
+  
     CLIENT AND EMPLOYER – Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest. A software engineer will create software that is to the standard/specifications of those who request it.
     PRODUCT – Software engineers shall ensure that their products and related modifications meet the highest professional standards possible. A software engineer will create software that is acceptable, dependable, secure, efficient, and maintainable.
     JUDGMENT – Software engineers shall maintain integrity and independence in their professional judgment. A software engineer will practice good ethics in their profession despite any negative pressure they may receive.
@@ -51,47 +51,47 @@
     COLLEAGUES – Software engineers shall be fair to and supportive of their colleagues. A software engineer is an understanding, unbiased and dedicated worker within their team.
     SELF – Software engineers shall participate in lifelong learning regarding the practice of their profession. A software engineer continues learning as the standards of software engineering change, such that they may maintain the industry standard for development. 1.10 To help counter terrorism, many countries are planning or have developed computer systems that track large numbers of their citizens and their actions. Clearly, this has privacy implications. Discuss the ethics of working on the development of this type of system.
     In working on the development of this type of system, there is a fine line between what is ethical and what is not. On one hand, citizens do not want to be tracked because they want to maintain privacy, but on the other hand it is within public interest to prevent terrorist action. Therefore, the best solution to this problem is assuring that the privacy of those being tracked is protected by the software. This means a strong consideration for the security and dependability of the software, as well as a high ethical standard set for the engineers developing it.
-    </p>
+    
 </div>
  
-<p>
-  <b> HW2: Reflections on software engineering practices</b>
-</p>
+
+   HW2: Reflections on software engineering practices
+
 <div style = "color:red">
-  <p>
+  
     Today I will be discussing with you: Silver Bullet while using Cherry Picking and Scientific Method, Google Copy Repo and Make Se More Ethical as information to back up certain things or give examples . “Silver Bullet” by Frank Brookes discusses the monster known as Software engineering. When I was growing up my sibling use to babysit me while my parents were at work. We would always watch anime because my brother went to Japan with my father for several years and that where he was introduced to anime, loved it and wanted to introduce it to us. I remember the first anime I ever watch was アンパンマン and ドラゴンボール. The plot was the same, the evil villain reck havoc on the city, planet, and hero friends etc. And everyone would wait for the hero to save the day to make thing easier for everyone and to end everyone suffering. One watches horror movies like Blade, Underworld etc. Where vampire reach havoc on the world and as you are getting bit by a vampire you just think within your head that you wish you had a silver bullet to kill this vampire and make thing easier for you and end the suffering. The point I am trying to make, and the point Brooke made is that there is no silver bullet in software engineering. We as developer might think the solution is nontechnical and straightforward but software can become a disaster like a tsunami or as frightening as a vampire or werewolf. From: miscommunication, to complex structure, flawed product, unaffordable budget etc. I think we as developer or as programmer wished we had a silver bullet like hardware has and reduce productivity and production with reduction of cost. As you read “Silver Bullet”, Brooke categories software difficulties into two groups: essential difficulties which discusses the difficulties that was inherent by the software itself which are problem that unavoidable due to the complex nature of the software. Then accidental difficulties which is the result of one overcomplicating things for themselves and making things harder. Which I think relates to the “Cherry Picking and Scientific Method” article. Cherry Picking is a very misleading and untrustworthy method which relate to making thing more difficult for yourself. Cherry Picking does not provide all the test cases for the experiment and it hard to find pattern in data so I would categories this as accidental difficulties. Then Brook goes on discussing the source of essential difficulties and why there will never be a silver bullet. They are listed as: complexity, conformity, changeability, and invisibility. A example of one of these essential difficulties is google code repo. The monolithic model that google made surely makes it easier to comprehend the complexity of the codebase, since there is no coercion of repository boundaries between dependencies. However, as the scale increases, code discovery can become more difficult. Which many problems that arise in software engineering is the nonlinear increase in size. So, what can we do to fix these problems? We should reuse, incremental development and nurture your software engineers. I think nurturing our software engineers and make sure they follow the right path and ethics. Software developers are a huge part of today society. They are the one protecting our infrastructure. They write 1000 of lines of code today to model today society and impact people live. They protect and secure our information from hackers. Software engineering is in everything: banking, surveillance, drones, security, cars and etc.. They truly impact the world .
-    <p>
+    
 </div>
 
-<p>
-<b>HW3: Chapters 11 & 12</b>
-</p>
 
-<p>
+HW3: Chapters 11 & 12
+
+
+
 11.4 What is the common characteristic of all architectural styles that are geared to supporting software fault tolerance?
-</p>
+
  <div style = "color:red">
-   <p>
+   
      A system that provides fault tolerance will include redundant and diverse hardware and software.
-   </p>
+   
      
  </div>
 
 
-<p>
+
 11.7 It has been suggested that the control software for a radiation therapy machine, used to treat patients with cancer, should be implemented using N-version programming. Comment on whether or not you think this is a good suggestion.
-  <p>
+  
 
 <div style = "color:red">
-  <p>
+  
     Using multi-version programming to evaluate radiation therapy is a good method. If we have multiple system running cohesively on a hardware, which is set in the same settings, then if these two systems calculate the same output, the output should be correct. I am not sure how many would be required to produce the same output, but based on probability, the more machines required to produce the same output, the safer it is
-  </p>
+  
 
  </div>
 
-<p>
+
   11.9 Explain why you should explicitly handle all exceptions in a system that is intended to have a high level of availability
-</9>
+
 
  <div style = "color:red"> 
    <p>
