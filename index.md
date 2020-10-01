@@ -4,19 +4,16 @@
 
 # HW1: Chapter 1
 
-1.3 Four important attributes of professional software are:</p>
+### 1.3 Four important attributes of professional software are:
 
 <div style = "color:red">
-  
     Maintainability
     Dependability and security
     Efficiency
     Acceptability/Usability
-  
-
 </div>
 
-  1.4 The four most important attributes are essentially maintainability, dependability, efficiency (performance) and usability. Other attributes that may be significant could be reusability (can it be reused in other applications), distributability (can it be distributed over a network of processors), portability (can it operate on multiple platforms e.g laptop and mobile platforms) and inter-operability (can it work with a wide range of other software systems). Other attributes that are also significant are:
+###  1.4 The four most important attributes are essentially maintainability, dependability, efficiency (performance) and usability. Other attributes that may be significant could be reusability (can it be reused in other applications), distributability (can it be distributed over a network of processors), portability (can it operate on multiple platforms e.g laptop and mobile platforms) and inter-operability (can it work with a wide range of other software systems). Other attributes that are also significant are:
 
 
 
@@ -55,7 +52,7 @@
 </div>
  
 
-   HW2: Reflections on software engineering practices
+# HW2: Reflections on software engineering practices
 
 <div style = "color:red">
   
@@ -64,7 +61,7 @@
 </div>
 
 
-HW3: Chapters 11 & 12
+# HW3: Chapters 11 & 12
 
 
 
@@ -118,8 +115,7 @@ HW3: Chapters 11 & 12
    </div>
 
 
-<p>
-  <b> HW4: Reflections on software failures </b>
+# HW4: Reflections on software failures
 
  <div style = "color:red"> 
    </p>
