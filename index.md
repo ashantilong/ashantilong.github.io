@@ -125,7 +125,7 @@ What is the difference from “Fault”, “Error” and “Failure? Well, this 
  </div>  
 
 
-  # HW5: Chapter 4 and Reflections
+# HW5: Chapter 4 and Reflections
  
  <div style = "color:red">
    
@@ -134,8 +134,8 @@ What is the difference from “Fault”, “Error” and “Failure? Well, this 
   </div>
 
 
-<
- ### 4.5 Using the technique suggested here, where natural language descriptions are presented in a standard format, write plausible user requirements for the following functions: 
+
+### 4.5 Using the technique suggested here, where natural language descriptions are presented in a standard format, write plausible user requirements for the following functions: 
 
 
 <div style = " color: red">
