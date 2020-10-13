@@ -177,3 +177,36 @@ What is the difference from “Fault”, “Error” and “Failure? Well, this 
 • A system to control antilock braking in a car - the waterfall process is usually adapted for safety-critical systems because of the higher amount of analysis and documentation required before implementation. Because testing is a huge part of finalizing the software, it seems the waterfall model is the most appropriate generic software process. • A virtual reality system to support software maintenance - software maintenance is best done through versions and updates over long amounts of time, which would be the incremental development process. • A university account system that replaces an existing system - the integration and configuration process seems like it would be the best choice for a new account system as it takes reusable components (like formulas and sums) and integrates them into a new system and setting. • An interactive travel planning system that helps users plan journeys with the lowest environmental impact - I think this could be more than one of the software process models, but I will say incremental development. A planning system would need to be adaptable and have multiple versions.
    </p>
   </div>
+#HW7: Chapter 5 & 6
+
+### 5.3  You have been asked to develop a system that will help with planning large-scale events and parties such as weddings, graduation celebrations, and birthday parties. Using an activity diagram, model the process context for such a system that shows the activities involved in planning a party (booking a venue, organizing invitations,,etc. ) and the system elements that might be used at each stage.
+
+![Picture.5.3](/Picture5.3.png "Picture5.3")
+
+### 5.5 Develop a sequence diagram showing the interactions involved when a student registers for a course in a university. Courses may have limited enrollment, so the registration process must include checks that places are available. Assume that the student accesses an electronic course catalog to find out about available courses
+
+![Picture.5.5](/Picture5.5.png "Picture5.5")
+
+
+### 5.7   Based on your experience with a bank ATM, draw an activity diagram that models the data processing involved when a customer withdraws cash from the machine
+
+![Picture.5.7](/Picture5.7.png "Picture5.7")
+
+
+### 5.8  Draw a sequence diagram for the same system. Explain why you might want to develop both activity and sequence diagrams when modeling the behavior of a system.
+
+![Picture.5.8](/Picture5.8.png "Picture5.8")
+
+### 6.4. Draw diagrams showing a conceptual view and a process view of the architectures of the following systems:
+•	A ticket machine used by passengers at a railway station.
+
+![Picture.6.4](/Picture6.4.png "Picture6.4")
+
+•	A computer-controlled video conferencing system that allows video, audio, and computer data to be visible to several participants at the same time
+
+![Picture.6.42](/Picture6.42.png "Picture6.42")
+
+•	A robot floor-cleaner that is intended to clean relatively clear spaces such as corridors. The cleaner must be able to sense walls and other obstructions
+
+![Picture.6.43](/Picture6.43.png "Picture6.43")
+
