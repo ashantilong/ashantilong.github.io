@@ -217,3 +217,82 @@ The Mythical Man-Month is just a collection of essays on Software Engineering wi
 In my opinion Chapters 5, 6, 7 8, 9,10, 11, 12 ,13 ,14 15 seem unnecessary I believe the mid-section of the essay could be skipped because they just restate things.  It feels outdated with the verbal usages making it seem somewhat sexist and not allowing women in the profession. I felt like Brooks purposely uses the pronoun "he" for every sentence. I would recognize that during that age many women weren’t in that felid but still. I thought chapter 7, and the later chapter was educational, and I learned a lot from them. These chapter mostly talking about why software development costs so much and why adding more engineers to a project is unlikely to speed productivity linearly. I think overall the most important thing to take away from this is communication and organization and managing added complexity. 
 It makes me wonder why engineering interviews select so much for problem-solving and hardly at all for communication and organization skills, or the ability to manage growing complexity. The chapter i think you should read are: 1,2,3,4 7, and 16+. Chapter 5: This is basically telling why everyone first attempt is horrible and how to prepare thing around it and chapter 11 restate that for that and design around it. Chapter 11 mostly re-iterates this.Chapter 6 talk about the birth of OS/360 manual became.  I think this is not really important becasue it out of date and most things use auto-generated websites. In the past  worke would have stack of paper at their desk. Brooks chronicles the problems of maintaining such a manual, and how switching to a microfiche manual helped in some ways, but hindered in others.Chapter 10 talks about important documents for a software organization. This hold great importance for a big compnay and enterpise but not for start up .Chapter 13 just  explains the properties of a good testing framework, basically preaching the importance of unit tests and integration tests. This is taken for granted in the modern work-place as every company at least knows of the importance. Chapter 14 similarly explains the importance of milestones. Again, this is taken for granted in the modern work-place. Kanban, Agile, and every other Software Development Life Cycle mostly revolves around this.Chapter 15 spells out the importance of documentation. But peering into the future, Brooks sees this becoming obsolete, admitting that newer languages of the time, like Ada, allowed for code to be almost human readable. Nowadays, code is human readable enough that most programmers prefer for code to be "self-documenting". It's always up for debate if the code written is in fact self-documenting. But the importance of documentation is constantly diminishing as languages become ever-more declarative, and systems are better and better designed.
     </div>
+    
+# HW9: 8.7, 8.10, reflections on reading
+
+### 8.7  Write a scenario that could be used to help design tests for the wilderness weather station system.
+
+<dive style = "color:red">
+Billy works for a wilderness weather station out in Lander, WY. He spends a lot of time at work because he often gets snowed in and has to spend the night. This gives him plenty of time to test the weather station software. First, he has to log onto the system using his weatherman username and password. 
+
+Billy usually first checks the status of the satellitle communcations (SatComm) and the regular communications (Commslink) link to ensure that the summary is being collected from up-to-date data. He then will request a weather data summary report from satellite communications and receive an acknowledgement of this request. 
+
+Billy knows the weather station will send him a report if it is unable to collect data via the Commslink and it will also acknowledge that he requested a report. Always alone and drinking coffee, Billy looks forward to receiving the summary report of the weather data to give him something to do on long snowy days at work. 
+
+</div>
+
+### 8.10  A common approach to system testing is to test the system until the testing budget is exhausted and then deliver the system to the customers. Discuss the ethics of this approach for systems that are delivered to external customers. 
+
+< div style = "color red">
+This is not a very ethical approach. Testing is time-intensive and often leads to changes in software as the tests reveal issues. The testing period should have plenty of time devoted to it to ensure that a customer is getting, if not a totally bug-free product, at least a product that has undergone extensive testing before it was deemed appropriate to receive money for. A testing budget should also be a little bit larger because of its importance to a project. 
+
+If a software company develops and delivers software to an external customer without putting in significant testing time, then how can the software company be sure that they will get that customer back? A company can only ensure returning customers if they have put the time and effort into making their product the best it can be for the requirements asked for and tested it effectively to the best of their abilities.
+
+</div>
+
+### Reflection
+< div style = "color:red">
+Intro to testing explain many reasons for testing. The whole idea of intro to testing and we can conclude that every software application has some defects embedded in it but not every defect is a threat to the system. Due to this we can accomplish a lot with software testing. Testing helps in evaluating the quality of software.
+There are many reasons why software testing has gained so much of importance in the field of information technology. Firstly, testing helps in reducing the overall cost of the software development project. If testing is ignored in the initial development stages to save a small amount of money then it may turn out to be a very expensive matter later because as you move on with development process it becomes more and more difficult to trace back defects and rectifying one defect somewhere can introduce another defect in some other module.
+The requirement is finalized after several discussions with the client. Testing ensures that the software behaves and looks exactly like what is mentioned in the requirements specification document, so that when software is delivered to the client there are no arguments about the variation from the original requirements. Software testing helps in strengthening the market reputation of a company. Well tested software is of good quality and good quality means better feedback and reviews.
+In order to achieve best results it is important to organize all your testing efforts and this is what this Software Testing Training provided by International Software Test Institute is all about. Software testing cannot be fruitful without proper planning. To live up to the expectations of the client it is important to plan every step carefully. A lot of things need to be considered in order plan your testing efforts. Software testing should be planned keeping budget, schedule and performance in mind in order to achieve best results.
+All testing activities require planning. It is important to outline a test plan that will give in details about how each activity will be carried out. Test plan is also required to ensure that all aspects of the software are covered thoroughly and there is no repetition of testing process so that time and effort is not wasted.
+The latest trend now is to involve the testing team in specification writing process. It is important that the testing team understands the requirements of the client clearly as the entire development is based on the requirement defined by the client. Anything that is not in line with the requirement is a defect. So, the testing team should have a clear idea about what the final outcome of running software should be like. As a matter of fact it is important to start writing test cases in parallel to specification writing. This will help the testers analyze whether all the requirements are testable or not. When you write test cases in parallel to specification writing process you will think critically about the specifications and you will know if there is an issue with the requirement or if there is something that cannot be developed
+
+</div>
+
+# HW10: Ex 15.10
+
+<div style = "color:red">
+    
+### 15.10  The reuse of software raises a number of copyright and intellectual property issues. If a customer pays the software contractor to develop a system, who has the right to reuse the developed code? Does the software contractor have the right to use that code as a basis for a generic component? What payment mechanisms might be used to reimburse providers of reusable components? Discuss these issues and other ethical issues associated with the reuse of software.
+
+As a student who taken many classes for example grpahic design , me and my classmante disccused problems before in the design industry with confusion as to who has rights to a created product. Software reuse seems like a similar issue and I think there will forever be a debate between groups who want to share everything and groups who want acknowledgement of their achievements and therefore the rights to their own software. The former group will argue that they have built working software and its reuse is important in order to save time and expenditure on creating more software that works the same way in a future product. The latter group will argue that they have the sole right to reuse software that they developed. 
+
+I think, at this point in my student career , that I at least believe in rewriting the code portion of software. I think it is better to go over old solutions and improve them, even if they end up performing the same tasks as the older version. Otherwise, how is code ever going to improve if we just copy old solutions and never learn from them?
+</div>
+# HW11: Chapter 9"
+
+### 9.8 Briefly describe the three main types of software maintenance. Why is it sometimes difficult to distinguish between them?
+
+<div style = "color:red">
+Bug Fixing - this is repairing faults found in the software after it has been launched. The bugs are there possibly because testing was not as thorough as it should have been or clients have exposed bugs by using the software in unexpected ways. Coding errors, design errors, and requirement errors are the least, middle, and most expensive to correct, respectively. 
+Modifying software to work in a new environment - when the hardware or platform that the system was built to run on changes, then the software must change as well in order to be compatible and avoid being obsolete.
+Implementing new or changed requirements - software must be updated or changed so that it conforms with any new requirements. 
+It is sometimes difficult to distinguish between the different types of maintenance because they are often given different names and also because faults that arise within a system can maybe have overlapping maintenance requirements. 
+
+</div>
+### 9.10  Do software engineers have a professional responsibility to develop code that can be easily maintained even if their employer does not explicitly request it?
+
+<div style = "color:red">
+    
+Yes definitely! Software development and maintenance are not separate activities. It is important to keep in mind how a system will need to be maintained if, for example, it is a system that is meant to last a long time and will have a revolving-door of developers working on it. A software developer who cares about the quality of their work will want to reduce the future cost of maintaining their software. According to the textbook, they can do this by using "Good software engineering techniques such as precise specification, test-first development, the use of object-oriented development, and configuration management" to help reduce the cost of future maintenance (Sommerville 259).  The ACM Software Engineering Code of Ethics says that a software engineer must "promote an ethical approach to the practice of the profession". This can only by done by carefully constructing software that is in the best interests of the employer (even if they do not require it), the client (who will have to pay for future maintenance), and the public (who want to use the software).  
+
+</div>
+
+# HW12: Chapter 16"
+
+### 16.9 > Design the interfaces of components that might be used in a system for an emergency control room. You should design interfaces for a call-logging component that records calls made, and a vehicle discovery component that, given a post-code (zip code) and an incident type, finds the nearest suitable vehicle to be dispatched to the incident.
+
+![image-asset.png](/ image-asset.png "image-asset.png")
+
+
+# "HW13: Chapter 17"
+### 17.10 Your company wishes to move from using desktop applications to accessing the same functionality remotely as services. Identify three risks that might arise and suggest how these risks may be reduced.
+
+<div style = "color:red">
+    
+Security -Information is being moved remotely once the company switches to using remote software.  When information was being transferred locally the security belonged only to the company.  The information being transferred through SaaS goes from the company then to the SaaS.  Information can be at risk if not thoroughly protected.  Security issues can be reduced if the SaaS has a up to date security procedures, or a third party can be hired to maintain security.
+Redundancy –  If the server or system of that runs the remote service goes down and fails, the ability for companies to continue to function is a must.  Having a backup system is with minimal functionality or a desktop version can be used until the system is back up.
+Connectivity – Since the software will be remotely used, the use of the software is no longer in the companies control.  They are completely in the hands of their internet provider as which is the speed that they can access the information.  There is no fool proof plan for this, internet connections are stable most times, but will go out from time to time.  If it happens often, changing providers may be the answer.
+</div>
