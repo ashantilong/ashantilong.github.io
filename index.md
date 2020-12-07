@@ -296,3 +296,69 @@ Security -Information is being moved remotely once the company switches to using
 Redundancy –  If the server or system of that runs the remote service goes down and fails, the ability for companies to continue to function is a must.  Having a backup system is with minimal functionality or a desktop version can be used until the system is back up.
 Connectivity – Since the software will be remotely used, the use of the software is no longer in the companies control.  They are completely in the hands of their internet provider as which is the speed that they can access the information.  There is no fool proof plan for this, internet connections are stable most times, but will go out from time to time.  If it happens often, changing providers may be the answer.
 </div>
+
+# HW 14: Chapter 18"
+### 18.4. Define an interface specification for the Currency Converter and Check credit rating services shown in Figure 18.7
+<div style = "color:red">
+Currency Converter:
+utility service
+task-oriented
+not independent; relies on access to current exchange rates
+state not stored
+Interface:
+<interface name = “currency-converter” >
+  <operation name = “get-conversion” pattern = “wsdlns: in-out”>
+    <input messageLabel = “In” element = “c-conv:from-amt” />
+    <input messageLabel = “In” element = “c-conv:from-curr” />
+    <input messageLabel = “In” element = “c-conv:to-curr” />
+    <output messageLabel = “Out” element = “c-conv:to-amt” />
+    <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
+  </operation>
+</interface>
+REST:
+no security required, ease of access primary importance
+Example url-based REST implementation:
+baseurl/ ? amount= VALUE & from= CURRENCY & to= CURRENCY
+e.g. <www.example.com/currency-converter/?amount=123-45&from=USD&to=JPY> to convert 123.45 US Dollars to Japanese Yen
+Credit Rating:
+more secure, autentication required(?)
+business service
+task-oriented
+not independent; relies on access to credit monitoring systems
+state not stored
+Interface:
+<interface name = “credit-retriever” >
+  <operation name = “get-credit” pattern = “wsdlns: in-out”>
+    <input messageLabel = “In” element = “c-conv:user-ID” />
+    <input messageLabel = “In” element = “c-conv:password” />
+    <input messageLabel = “In” element = “c-conv:target-ssn” />
+    <output messageLabel = “Out” element = “c-conv:cred-score” />
+    <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
+  </operation>
+</interface>
+SOAP:
+Should require authentication & more advanced user logging
+Shouldn’t be URL-based due to the inherent security required regarding usage of SSNs
+Must track users & permissions within the system
+</div>
+    
+# HW15: Ex 19.3  
+### 19.3 > Why is it impossible to infer the emergent properties of a complex system from the properties of the system components?
+
+<div style = "color:red">    
+The emergent properties of a system characterize the entire system - all of a system's components' properties are included in this as well as their ability to work together. The emergent properties include properties such as performance, reliability, usability, safety, and security. A component can often be considered reliable, safe, etc. when functioning on its own, but when it is a part of a system, those properties are not enough. Emergent properties encompass component properties as well as defining whether the components work together or not. It is difficult to distinguish emergent properties of a complex system from the system components because the emergent properties depend on the components working as expected.
+    </div>
+    
+ # HW16: Chapter 20 
+ ### 20.10 > You work for a software company that has developed a system that provides information about consumers and that is used within a SoS by a number of other retail businesses. They pay you for services used. Discuss the ethics of changing the system interfaces without notice to coerce users into paying higher charges. Consider this question from the point of view of the company's employees, customers, and shareholders.
+ 
+ <div style = "color:red">  
+ No! This is terrible. I am sure from the shareholder perspective, they would not mind if the users were not informed of the increase in price, but this is completely unethical. A software company has a lot of power when it comes to hiding things from the public and from their customers, but they should not take advantage of this. The employees of the software company might feel uncomfortable with having to make this unethical change to the system, but will probably be unlikely to speak up in case they lose their jobs. Customers, being unaware of the change, will not have an opinion UNTIL (because it is bound to come out eventually) it is found out that the software company increased prices without notifying consumers. Then the shareholders will pretend they had no idea and blame it on the developers. The employees will probably be out of a job anyway once the consumers find out about everything, and then those employees have a stain on their record for the rest of their careers. So, all in all, it is a terrible idea, both for ethical reasons and practical ones.
+    </div>
+    
+    
+  # "HW17: Team Progress I"
+  
+ <div style = "color:red">  
+  I think our team is contributing well together . I am very lucky to having hardowrking and deciated team memnbers like Clare and Kat. We are always ahead of the game and completing the deliverables before they are do . Due to the fact we are always ahead of the game and schedule meeting week in advance i never feel like we our overowkring ourselves because we giver us some much time to do the assigments . Typically Fanastic 4  team member met  every Saturday at 1pm to update everyone about our progress in the things we are working on or have not completed and are next steps after that. Being that we have been ahead we have not been metting on Saturday due to the fact we completed everthing . However, if you saw are messages you will a non stop texting making sure everyone okay. I feel due to our nature and detirmination we are not missing out from a classroom setting.  I feel that our team can produce the same quality, be that remotely or in person. To finished thing up our professor did an amazing job pciking our teams … The Fantastic 4 team is a great team ! I am glad and proud to have such detirmined and smart teammates.  We all have own unquie skills that we bring to the team . Overall i have no complaints 
+   </div>
