@@ -310,47 +310,48 @@ Yes definitely! Software development and maintenance are not separate activities
 
 # HW 14: Chapter 18"
 ### 18.4. Define an interface specification for the Currency Converter and Check credit rating services shown in Figure 18.7
-     <div style = "color:red">
-    Currency Converter:
-    utility service
-    task-oriented
-    not independent; relies on access to current exchange rates
-    state not stored
-    Interface:
-    <interface name = “currency-converter” >
-      <operation name = “get-conversion” pattern = “wsdlns: in-out”>
-        <input messageLabel = “In” element = “c-conv:from-amt” />
-        <input messageLabel = “In” element = “c-conv:from-curr” />
-        <input messageLabel = “In” element = “c-conv:to-curr” />
-        <output messageLabel = “Out” element = “c-conv:to-amt” />
-        <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
-      </operation>
-    </interface>
-    REST:
-    no security required, ease of access primary importance
-    Example url-based REST implementation:
-    baseurl/ ? amount= VALUE & from= CURRENCY & to= CURRENCY
-    e.g. <www.example.com/currency-converter/?amount=123-45&from=USD&to=JPY> to convert 123.45 US Dollars to Japanese Yen
-    Credit Rating:
-    more secure, autentication required(?)
-    business service
-    task-oriented
-    not independent; relies on access to credit monitoring systems
-    state not stored
-    Interface:
-    <interface name = “credit-retriever” >
-      <operation name = “get-credit” pattern = “wsdlns: in-out”>
-        <input messageLabel = “In” element = “c-conv:user-ID” />
-        <input messageLabel = “In” element = “c-conv:password” />
-        <input messageLabel = “In” element = “c-conv:target-ssn” />
-        <output messageLabel = “Out” element = “c-conv:cred-score” />
-        <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
-      </operation>
-    </interface>
-    SOAP:
-    Should require authentication & more advanced user logging
-    Shouldn’t be URL-based due to the inherent security required regarding usage of SSNs
-    Must track users & permissions within the system
+  <div style = "color:red">
+     
+   Currency Converter:
+utility service
+task-oriented
+not independent; relies on access to current exchange rates
+state not stored
+Interface:
+<interface name = “currency-converter” >
+  <operation name = “get-conversion” pattern = “wsdlns: in-out”>
+    <input messageLabel = “In” element = “c-conv:from-amt” />
+    <input messageLabel = “In” element = “c-conv:from-curr” />
+    <input messageLabel = “In” element = “c-conv:to-curr” />
+    <output messageLabel = “Out” element = “c-conv:to-amt” />
+    <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
+  </operation>
+</interface>
+REST:
+no security required, ease of access primary importance
+Example url-based REST implementation:
+baseurl/ ? amount= VALUE & from= CURRENCY & to= CURRENCY
+e.g. <www.example.com/currency-converter/?amount=123-45&from=USD&to=JPY> to convert 123.45 US Dollars to Japanese Yen
+Credit Rating:
+more secure, autentication required(?)
+business service
+task-oriented
+not independent; relies on access to credit monitoring systems
+state not stored
+Interface:
+<interface name = “credit-retriever” >
+  <operation name = “get-credit” pattern = “wsdlns: in-out”>
+    <input messageLabel = “In” element = “c-conv:user-ID” />
+    <input messageLabel = “In” element = “c-conv:password” />
+    <input messageLabel = “In” element = “c-conv:target-ssn” />
+    <output messageLabel = “Out” element = “c-conv:cred-score” />
+    <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
+  </operation>
+</interface>
+SOAP:
+Should require authentication & more advanced user logging
+Shouldn’t be URL-based due to the inherent security required regarding usage of SSNs
+Must track users & permissions within the system
     </div>
     
 # HW15: Ex 19.3  
