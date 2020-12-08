@@ -377,8 +377,7 @@ It makes me wonder why engineering interviews select so much for problem-solving
 
 # HW19: Chapter 23"
 ### Figure 23.14 shows the task durations for software product activities. Assume that a serious, unanticipated setback occurs, and instead of taking 10 days, task T5 takes 40 days. Draw up new bar chart showing how the project might be reorganized.
-
-![Screenshot 2020-12-07 233048](/Screenshot 2020-12-07 233048.png "Screenshot 2020-12-07 233048.png")
+ ![chart](/chart.png "chart")
 
 
 
@@ -397,7 +396,9 @@ It makes me wonder why engineering interviews select so much for problem-solving
 
 
  <div style = "color:red">
-    1. They can find several faults in one pass without being concerned about interference between program faults. 
+   
+    
+  ` 1. They can find several faults in one pass without being concerned about interference between program faults. 
    
     2. They bring a number of people with different experience of different types of errors. Hence, the team approach offers greater coverage than any individual can bring. 
 
