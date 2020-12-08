@@ -222,12 +222,12 @@ It makes me wonder why engineering interviews select so much for problem-solving
 
 ### 8.7  Write a scenario that could be used to help design tests for the wilderness weather station system.
 
-    <dive style = "color:red">
-    Billy works for a wilderness weather station out in Lander, WY. He spends a lot of time at work because he often gets snowed in and has to spend the night. This gives him plenty of time to test the weather station software. First, he has to log onto the system using his weatherman username and password. 
+<dive style = "color:red">
+    Billy works for a wilderness weather station out in Lander, WY. He spends a lot of time at work because he often gets snowed in and has to spend the night. This gives him      plenty of time to test the weather station software. First, he has to log onto the system using his weatherman username and password. 
 
-    Billy usually first checks the status of the satellitle communcations (SatComm) and the regular communications (Commslink) link to ensure that the summary is being collected from up-to-date data. He then will request a weather data summary report from satellite communications and receive an acknowledgement of this request. 
+   Billy usually first checks the status of the satellitle communcations (SatComm) and the regular communications (Commslink) link to ensure that the summary is being collected   from up-to-date data. He then will request a weather data summary report from satellite communications and receive an acknowledgement of this request. 
 
-    Billy knows the weather station will send him a report if it is unable to collect data via the Commslink and it will also acknowledge that he requested a report. Always alone and drinking coffee, Billy looks forward to receiving the summary report of the weather data to give him something to do on long snowy days at work. 
+ Billy knows the weather station will send him a report if it is unable to collect data via the Commslink and it will also acknowledge that he requested a report. Always alone and drinking coffee, Billy looks forward to receiving the summary report of the weather data to give him something to do on long snowy days at work. 
 
 </div>
 
