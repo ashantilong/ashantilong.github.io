@@ -229,7 +229,7 @@ It makes me wonder why engineering interviews select so much for problem-solving
 
  Billy knows the weather station will send him a report if it is unable to collect data via the Commslink and it will also acknowledge that he requested a report. Always alone and drinking coffee, Billy looks forward to receiving the summary report of the weather data to give him something to do on long snowy days at work. 
 
-</div>
+    </div>
 
 ### 8.10  A common approach to system testing is to test the system until the testing budget is exhausted and then deliver the system to the customers. Discuss the ethics of this approach for systems that are delivered to external customers. 
 
