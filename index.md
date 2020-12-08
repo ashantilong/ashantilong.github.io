@@ -222,7 +222,7 @@ It makes me wonder why engineering interviews select so much for problem-solving
 
 ### 8.7  Write a scenario that could be used to help design tests for the wilderness weather station system.
 
-<dive style = "color:red">
+<div style = "color:red">
    Billy works for a wilderness weather station out in Lander, WY. He spends a lot of time at work because he often gets snowed in and has to spend the night. This gives him      plenty of time to test the weather station software. First, he has to log onto the system using his weatherman username and password. 
 
   Billy usually first checks the status of the satellitle communcations (SatComm) and the regular communications (Commslink) link to ensure that the summary is being collected   from up-to-date data. He then will request a weather data summary report from satellite communications and receive an acknowledgement of this request. 
@@ -230,6 +230,9 @@ It makes me wonder why engineering interviews select so much for problem-solving
  Billy knows the weather station will send him a report if it is unable to collect data via the Commslink and it will also acknowledge that he requested a report. Always alone and drinking coffee, Billy looks forward to receiving the summary report of the weather data to give him something to do on long snowy days at work. 
 
  </div>
+ 
+ 
+ 
 
 ### 8.10  A common approach to system testing is to test the system until the testing budget is exhausted and then deliver the system to the customers. Discuss the ethics of this approach for systems that are delivered to external customers. 
 
@@ -239,6 +242,8 @@ It makes me wonder why engineering interviews select so much for problem-solving
 If a software company develops and delivers software to an external customer without putting in significant testing time, then how can the software company be sure that they will get that customer back? A company can only ensure returning customers if they have put the time and effort into making their product the best it can be for the requirements asked for and tested it effectively to the best of their abilities.
 
 </div>
+
+
 
 ### Reflection
     < div style = "color:red">
@@ -260,6 +265,10 @@ If a software company develops and delivers software to an external customer wit
 
     I think, at this point in my student career , that I at least believe in rewriting the code portion of software. I think it is better to go over old solutions and improve      them, even if they end up performing the same tasks as the older version. Otherwise, how is code ever going to improve if we just copy old solutions and never learn from        them?
 </div>
+
+
+
+
 # HW11: Chapter 9"
 
 ### 9.8 Briefly describe the three main types of software maintenance. Why is it sometimes difficult to distinguish between them?
@@ -271,6 +280,10 @@ If a software company develops and delivers software to an external customer wit
     It is sometimes difficult to distinguish between the different types of maintenance because they are often given different names and also because faults that arise within a    system can maybe have overlapping maintenance requirements. 
 
 </div>
+
+
+
+
 ### 9.10  Do software engineers have a professional responsibility to develop code that can be easily maintained even if their employer does not explicitly request it?
 
 <div style = "color:red">
