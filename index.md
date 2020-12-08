@@ -237,6 +237,7 @@ It makes me wonder why engineering interviews select so much for problem-solving
 ### 8.10  A common approach to system testing is to test the system until the testing budget is exhausted and then deliver the system to the customers. Discuss the ethics of this approach for systems that are delivered to external customers. 
 
 < div style = "color red">
+
  This is not a very ethical approach. Testing is time-intensive and often leads to changes in software as the tests reveal issues. The testing period should have plenty of time devoted to it to ensure that a customer is getting, if not a totally bug-free product, at least a product that has undergone extensive testing before it was deemed appropriate to receive money for. A testing budget should also be a little bit larger because of its importance to a project. 
 
 If a software company develops and delivers software to an external customer without putting in significant testing time, then how can the software company be sure that they will get that customer back? A company can only ensure returning customers if they have put the time and effort into making their product the best it can be for the requirements asked for and tested it effectively to the best of their abilities.
@@ -246,6 +247,8 @@ If a software company develops and delivers software to an external customer wit
 
 
 ### Reflection
+
+
  < div style = "color:red">
     Intro to testing explain many reasons for testing. The whole idea of intro to testing and we can conclude that every software application has some defects embedded in it       but not every defect is a threat to the system. Due to this we can accomplish a lot with software testing. Testing helps in evaluating the quality of software.
     There are many reasons why software testing has gained so much of importance in the field of information technology. Firstly, testing helps in reducing the overall cost of     the software development project. If testing is ignored in the initial development stages to save a small amount of money then it may turn out to be a very expensive matter    later because as you move on with development process it becomes more and more difficult to trace back defects and rectifying one defect somewhere can introduce another        defect in some other module.
