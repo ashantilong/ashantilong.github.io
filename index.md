@@ -246,7 +246,7 @@ If a software company develops and delivers software to an external customer wit
 
 ### Reflection
 
-<div style = "color:red">
+  <div style = "color:red">
     
 Intro to testing explain many reasons for testing. The whole idea of intro to testing and we can conclude that every software application has some defects embedded in it       but not every defect is a threat to the system. Due to this we can accomplish a lot with software testing. Testing helps in evaluating the quality of software.
 There are many reasons why software testing has gained so much of importance in the field of information technology. Firstly, testing helps in reducing the overall cost of     the software development project. If testing is ignored in the initial development stages to save a small amount of money then it may turn out to be a very expensive matter    later because as you move on with development process it becomes more and more difficult to trace back defects and rectifying one defect somewhere can introduce another        defect in some other module.
@@ -265,6 +265,7 @@ The requirement is finalized after several discussions with the client. Testing 
     As a student who taken many classes for example grpahic design , me and my classmante disccused problems before in the design industry with confusion as to who has rights       to a created product. Software reuse seems like a similar issue and I think there will forever be a debate between groups who want to share everything and groups who want       acknowledgement of their achievements and therefore the rights to their own software. The former group will argue that they have built working software and its reuse is         important in order to save time and expenditure on creating more software that works the same way in a future product. The latter group will argue that they have the sole       right to reuse software that they developed. 
 
    I think, at this point in my student career , that I at least believe in rewriting the code portion of software. I think it is better to go over old solutions and improve      them, even if they end up performing the same tasks as the older version. Otherwise, how is code ever going to improve if we just copy old solutions and never learn from        them?
+   
 </div>
 
 
