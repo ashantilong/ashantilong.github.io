@@ -260,10 +260,10 @@ If a software company develops and delivers software to an external customer wit
     
 ### 15.10  The reuse of software raises a number of copyright and intellectual property issues. If a customer pays the software contractor to develop a system, who has the right to reuse the developed code? Does the software contractor have the right to use that code as a basis for a generic component? What payment mechanisms might be used to reimburse providers of reusable components? Discuss these issues and other ethical issues associated with the reuse of software.
 
-    <div style = "color:red">
+  <div style = "color:red">
     As a student who taken many classes for example grpahic design , me and my classmante disccused problems before in the design industry with confusion as to who has rights       to a created product. Software reuse seems like a similar issue and I think there will forever be a debate between groups who want to share everything and groups who want       acknowledgement of their achievements and therefore the rights to their own software. The former group will argue that they have built working software and its reuse is         important in order to save time and expenditure on creating more software that works the same way in a future product. The latter group will argue that they have the sole       right to reuse software that they developed. 
 
-    I think, at this point in my student career , that I at least believe in rewriting the code portion of software. I think it is better to go over old solutions and improve      them, even if they end up performing the same tasks as the older version. Otherwise, how is code ever going to improve if we just copy old solutions and never learn from        them?
+   I think, at this point in my student career , that I at least believe in rewriting the code portion of software. I think it is better to go over old solutions and improve      them, even if they end up performing the same tasks as the older version. Otherwise, how is code ever going to improve if we just copy old solutions and never learn from        them?
 </div>
 
 
@@ -273,7 +273,7 @@ If a software company develops and delivers software to an external customer wit
 
 ### 9.8 Briefly describe the three main types of software maintenance. Why is it sometimes difficult to distinguish between them?
 
-    <div style = "color:red">
+<div style = "color:red">
     Bug Fixing - this is repairing faults found in the software after it has been launched. The bugs are there possibly because testing was not as thorough as it should have       been or clients have exposed bugs by using the software in unexpected ways. Coding errors, design errors, and requirement errors are the least, middle, and most expensive       to correct, respectively. 
     Modifying software to work in a new environment - when the hardware or platform that the system was built to run on changes, then the software must change as well in order     to be compatible and avoid being obsolete.
     Implementing new or changed requirements - software must be updated or changed so that it conforms with any new requirements. 
@@ -288,7 +288,7 @@ If a software company develops and delivers software to an external customer wit
 
 <div style = "color:red">
     
-    Yes definitely! Software development and maintenance are not separate activities. It is important to keep in mind how a system will need to be maintained if, for example, it is a system that is meant to last a long time and will have a revolving-door of developers working on it. A software developer who cares about the quality of their work will want to reduce the future cost of maintaining their software. According to the textbook, they can do this by using "Good software engineering techniques such as precise specification, test-first development, the use of object-oriented development, and configuration management" to help reduce the cost of future maintenance (Sommerville 259).  The ACM Software Engineering Code of Ethics says that a software engineer must "promote an ethical approach to the practice of the profession". This can only by done by carefully constructing software that is in the best interests of the employer (even if they do not require it), the client (who will have to pay for future maintenance), and the public (who want to use the software).  
+Yes definitely! Software development and maintenance are not separate activities. It is important to keep in mind how a system will need to be maintained if, for example, it is a system that is meant to last a long time and will have a revolving-door of developers working on it. A software developer who cares about the quality of their work will want to reduce the future cost of maintaining their software. According to the textbook, they can do this by using "Good software engineering techniques such as precise specification, test-first development, the use of object-oriented development, and configuration management" to help reduce the cost of future maintenance (Sommerville 259).  The ACM Software Engineering Code of Ethics says that a software engineer must "promote an ethical approach to the practice of the profession". This can only by done by carefully constructing software that is in the best interests of the employer (even if they do not require it), the client (who will have to pay for future maintenance), and the public (who want to use the software).  
 
 </div>
 
@@ -304,9 +304,9 @@ If a software company develops and delivers software to an external customer wit
 
 <div style = "color:red">
     
-    Security -Information is being moved remotely once the company switches to using remote software.  When information was being transferred locally the security belonged only to the company.  The information being transferred through SaaS goes from the company then to the SaaS.  Information can be at risk if not thoroughly protected.  Security issues can be reduced if the SaaS has a up to date security procedures, or a third party can be hired to maintain security.
-    Redundancy –  If the server or system of that runs the remote service goes down and fails, the ability for companies to continue to function is a must.  Having a backup system is with minimal functionality or a desktop version can be used until the system is back up.
-    Connectivity – Since the software will be remotely used, the use of the software is no longer in the companies control.  They are completely in the hands of their internet provider as which is the speed that they can access the information.  There is no fool proof plan for this, internet connections are stable most times, but will go out from time to time.  If it happens often, changing providers may be the answer.
+ Security -Information is being moved remotely once the company switches to using remote software.  When information was being transferred locally the security belonged only to the company.  The information being transferred through SaaS goes from the company then to the SaaS.  Information can be at risk if not thoroughly protected.  Security issues can be reduced if the SaaS has a up to date security procedures, or a third party can be hired to maintain security.
+ Redundancy –  If the server or system of that runs the remote service goes down and fails, the ability for companies to continue to function is a must.  Having a backup system is with minimal functionality or a desktop version can be used until the system is back up.
+ Connectivity – Since the software will be remotely used, the use of the software is no longer in the companies control.  They are completely in the hands of their internet provider as which is the speed that they can access the information.  There is no fool proof plan for this, internet connections are stable most times, but will go out from time to time.  If it happens often, changing providers may be the answer.
 </div>
 
 # HW 14: Chapter 18"
