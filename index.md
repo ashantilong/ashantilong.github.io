@@ -327,6 +327,9 @@ Interface:
     <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
   </operation>
 </interface>
+
+
+
 REST:
 no security required, ease of access primary importance
 Example url-based REST implementation:
@@ -338,6 +341,10 @@ business service
 task-oriented
 not independent; relies on access to credit monitoring systems
 state not stored
+
+
+
+
 Interface:
 <interface name = “credit-retriever” >
   <operation name = “get-credit” pattern = “wsdlns: in-out”>
@@ -348,6 +355,9 @@ Interface:
     <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
   </operation>
 </interface>
+
+
+
 SOAP:
 Should require authentication & more advanced user logging
 Shouldn’t be URL-based due to the inherent security required regarding usage of SSNs
