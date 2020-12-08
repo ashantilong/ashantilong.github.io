@@ -161,7 +161,7 @@ What is the difference from “Fault”, “Error” and “Failure? Well, this 
   
  <div style = "color:red"> 
    
-  Withdraw funds: By swiping their card through the card-reader, the user then inputs a PIN (personal identification number) to verify access to the account. The records of the bank who holds the account are checked, and the account is then confirmed. The user may then choose from a list of options on the ATM screen. The user can input an amount (or may have the option to choose from a predetermined amount) to be withdrawn from their bank account. The system confirms that the user has enough money in their account before dispensing the specified amount of cash. After the cash is dispensed, the user will confirm that the transaction is complete by pressing the button on the screen. They are then logged out of their account and the ATM is prepared for the next user. Transfer funds: After confirming access to their account by the process aforementioned, the user is again presented with a list of options on the screen. By choosing the button to transfer money, the user can choose to move money between their own accounts, for example, transferring money from their savings account into a checking account, or into the account of another user provided they have the account number to transfer the money into. The user must then confirm the amount and the destination, the money is transferred and the transaction is complete as the user logs out of the account and the ATM is prepared for the next user. Check balance: By again confirming access to their account, the user is presented with a list of options. The user may then choose the option for checking their account balance on the screen. The ATM accesses the bank records for the specified account and displays it on the screen for the user to see. The user may then choose to press “End” therefore logging out of their account on the ATM.
+     Withdraw funds: By swiping their card through the card-reader, the user then inputs a PIN (personal identification number) to verify access to the account. The records of the bank who holds the account are checked, and the account is then confirmed. The user may then choose from a list of options on the ATM screen. The user can input an amount (or may have the option to choose from a predetermined amount) to be withdrawn from their bank account. The system confirms that the user has enough money in their account before dispensing the specified amount of cash. After the cash is dispensed, the user will confirm that the transaction is complete by pressing the button on the screen. They are then logged out of their account and the ATM is prepared for the next user. Transfer funds: After confirming access to their account by the process aforementioned, the user is again presented with a list of options on the screen. By choosing the button to transfer money, the user can choose to move money between their own accounts, for example, transferring money from their savings account into a checking account, or into the account of another user provided they have the account number to transfer the money into. The user must then confirm the amount and the destination, the money is transferred and the transaction is complete as the user logs out of the account and the ATM is prepared for the next user. Check balance: By again confirming access to their account, the user is presented with a list of options. The user may then choose the option for checking their account balance on the screen. The ATM accesses the bank records for the specified account and displays it on the screen for the user to see. The user may then choose to press “End” therefore logging out of their account on the ATM.
    
   </div>
 
@@ -174,7 +174,7 @@ What is the difference from “Fault”, “Error” and “Failure? Well, this 
 
  <div style = "color:red"> 
    
-• A system to control antilock braking in a car - the waterfall process is usually adapted for safety-critical systems because of the higher amount of analysis and documentation required before implementation. Because testing is a huge part of finalizing the software, it seems the waterfall model is the most appropriate generic software process. • A virtual reality system to support software maintenance - software maintenance is best done through versions and updates over long amounts of time, which would be the incremental development process. • A university account system that replaces an existing system - the integration and configuration process seems like it would be the best choice for a new account system as it takes reusable components (like formulas and sums) and integrates them into a new system and setting. • An interactive travel planning system that helps users plan journeys with the lowest environmental impact - I think this could be more than one of the software process models, but I will say incremental development. A planning system would need to be adaptable and have multiple versions.
+    • A system to control antilock braking in a car - the waterfall process is usually adapted for safety-critical systems because of the higher amount of analysis and documentation required before implementation. Because testing is a huge part of finalizing the software, it seems the waterfall model is the most appropriate generic software process. • A virtual reality system to support software maintenance - software maintenance is best done through versions and updates over long amounts of time, which would be the incremental development process. • A university account system that replaces an existing system - the integration and configuration process seems like it would be the best choice for a new account system as it takes reusable components (like formulas and sums) and integrates them into a new system and setting. • An interactive travel planning system that helps users plan journeys with the lowest environmental impact - I think this could be more than one of the software process models, but I will say incremental development. A planning system would need to be adaptable and have multiple versions.
    </p>
   </div>
 # HW7: Chapter 5 & 6
@@ -213,7 +213,7 @@ What is the difference from “Fault”, “Error” and “Failure? Well, this 
 # HW8: "Mythical Man Month"
 
  <div style = "color:red"> 
-The Mythical Man-Month is just a collection of essays on Software Engineering within a book on software engineering and project management by Fred Brooks first published in 
+ The Mythical Man-Month is just a collection of essays on Software Engineering within a book on software engineering and project management by Fred Brooks first published in 
 In my opinion Chapters 5, 6, 7 8, 9,10, 11, 12 ,13 ,14 15 seem unnecessary I believe the mid-section of the essay could be skipped because they just restate things.  It feels outdated with the verbal usages making it seem somewhat sexist and not allowing women in the profession. I felt like Brooks purposely uses the pronoun "he" for every sentence. I would recognize that during that age many women weren’t in that felid but still. I thought chapter 7, and the later chapter was educational, and I learned a lot from them. These chapter mostly talking about why software development costs so much and why adding more engineers to a project is unlikely to speed productivity linearly. I think overall the most important thing to take away from this is communication and organization and managing added complexity. 
 It makes me wonder why engineering interviews select so much for problem-solving and hardly at all for communication and organization skills, or the ability to manage growing complexity. The chapter i think you should read are: 1,2,3,4 7, and 16+. Chapter 5: This is basically telling why everyone first attempt is horrible and how to prepare thing around it and chapter 11 restate that for that and design around it. Chapter 11 mostly re-iterates this.Chapter 6 talk about the birth of OS/360 manual became.  I think this is not really important becasue it out of date and most things use auto-generated websites. In the past  worke would have stack of paper at their desk. Brooks chronicles the problems of maintaining such a manual, and how switching to a microfiche manual helped in some ways, but hindered in others.Chapter 10 talks about important documents for a software organization. This hold great importance for a big compnay and enterpise but not for start up .Chapter 13 just  explains the properties of a good testing framework, basically preaching the importance of unit tests and integration tests. This is taken for granted in the modern work-place as every company at least knows of the importance. Chapter 14 similarly explains the importance of milestones. Again, this is taken for granted in the modern work-place. Kanban, Agile, and every other Software Development Life Cycle mostly revolves around this.Chapter 15 spells out the importance of documentation. But peering into the future, Brooks sees this becoming obsolete, admitting that newer languages of the time, like Ada, allowed for code to be almost human readable. Nowadays, code is human readable enough that most programmers prefer for code to be "self-documenting". It's always up for debate if the code written is in fact self-documenting. But the importance of documentation is constantly diminishing as languages become ever-more declarative, and systems are better and better designed.
     </div>
@@ -222,61 +222,60 @@ It makes me wonder why engineering interviews select so much for problem-solving
 
 ### 8.7  Write a scenario that could be used to help design tests for the wilderness weather station system.
 
-<dive style = "color:red">
-Billy works for a wilderness weather station out in Lander, WY. He spends a lot of time at work because he often gets snowed in and has to spend the night. This gives him plenty of time to test the weather station software. First, he has to log onto the system using his weatherman username and password. 
+    <dive style = "color:red">
+    Billy works for a wilderness weather station out in Lander, WY. He spends a lot of time at work because he often gets snowed in and has to spend the night. This gives him plenty of time to test the weather station software. First, he has to log onto the system using his weatherman username and password. 
 
-Billy usually first checks the status of the satellitle communcations (SatComm) and the regular communications (Commslink) link to ensure that the summary is being collected from up-to-date data. He then will request a weather data summary report from satellite communications and receive an acknowledgement of this request. 
+    Billy usually first checks the status of the satellitle communcations (SatComm) and the regular communications (Commslink) link to ensure that the summary is being collected from up-to-date data. He then will request a weather data summary report from satellite communications and receive an acknowledgement of this request. 
 
-Billy knows the weather station will send him a report if it is unable to collect data via the Commslink and it will also acknowledge that he requested a report. Always alone and drinking coffee, Billy looks forward to receiving the summary report of the weather data to give him something to do on long snowy days at work. 
+    Billy knows the weather station will send him a report if it is unable to collect data via the Commslink and it will also acknowledge that he requested a report. Always alone and drinking coffee, Billy looks forward to receiving the summary report of the weather data to give him something to do on long snowy days at work. 
 
 </div>
 
 ### 8.10  A common approach to system testing is to test the system until the testing budget is exhausted and then deliver the system to the customers. Discuss the ethics of this approach for systems that are delivered to external customers. 
 
-< div style = "color red">
-This is not a very ethical approach. Testing is time-intensive and often leads to changes in software as the tests reveal issues. The testing period should have plenty of time devoted to it to ensure that a customer is getting, if not a totally bug-free product, at least a product that has undergone extensive testing before it was deemed appropriate to receive money for. A testing budget should also be a little bit larger because of its importance to a project. 
+    < div style = "color red">
+    This is not a very ethical approach. Testing is time-intensive and often leads to changes in software as the tests reveal issues. The testing period should have plenty of time devoted to it to ensure that a customer is getting, if not a totally bug-free product, at least a product that has undergone extensive testing before it was deemed appropriate to receive money for. A testing budget should also be a little bit larger because of its importance to a project. 
 
-If a software company develops and delivers software to an external customer without putting in significant testing time, then how can the software company be sure that they will get that customer back? A company can only ensure returning customers if they have put the time and effort into making their product the best it can be for the requirements asked for and tested it effectively to the best of their abilities.
+    If a software company develops and delivers software to an external customer without putting in significant testing time, then how can the software company be sure that they will get that customer back? A company can only ensure returning customers if they have put the time and effort into making their product the best it can be for the requirements asked for and tested it effectively to the best of their abilities.
 
 </div>
 
 ### Reflection
-< div style = "color:red">
-Intro to testing explain many reasons for testing. The whole idea of intro to testing and we can conclude that every software application has some defects embedded in it but not every defect is a threat to the system. Due to this we can accomplish a lot with software testing. Testing helps in evaluating the quality of software.
-There are many reasons why software testing has gained so much of importance in the field of information technology. Firstly, testing helps in reducing the overall cost of the software development project. If testing is ignored in the initial development stages to save a small amount of money then it may turn out to be a very expensive matter later because as you move on with development process it becomes more and more difficult to trace back defects and rectifying one defect somewhere can introduce another defect in some other module.
-The requirement is finalized after several discussions with the client. Testing ensures that the software behaves and looks exactly like what is mentioned in the requirements specification document, so that when software is delivered to the client there are no arguments about the variation from the original requirements. Software testing helps in strengthening the market reputation of a company. Well tested software is of good quality and good quality means better feedback and reviews.
-In order to achieve best results it is important to organize all your testing efforts and this is what this Software Testing Training provided by International Software Test Institute is all about. Software testing cannot be fruitful without proper planning. To live up to the expectations of the client it is important to plan every step carefully. A lot of things need to be considered in order plan your testing efforts. Software testing should be planned keeping budget, schedule and performance in mind in order to achieve best results.
-All testing activities require planning. It is important to outline a test plan that will give in details about how each activity will be carried out. Test plan is also required to ensure that all aspects of the software are covered thoroughly and there is no repetition of testing process so that time and effort is not wasted.
-The latest trend now is to involve the testing team in specification writing process. It is important that the testing team understands the requirements of the client clearly as the entire development is based on the requirement defined by the client. Anything that is not in line with the requirement is a defect. So, the testing team should have a clear idea about what the final outcome of running software should be like. As a matter of fact it is important to start writing test cases in parallel to specification writing. This will help the testers analyze whether all the requirements are testable or not. When you write test cases in parallel to specification writing process you will think critically about the specifications and you will know if there is an issue with the requirement or if there is something that cannot be developed
+    < div style = "color:red">
+    Intro to testing explain many reasons for testing. The whole idea of intro to testing and we can conclude that every software application has some defects embedded in it       but not every defect is a threat to the system. Due to this we can accomplish a lot with software testing. Testing helps in evaluating the quality of software.
+    There are many reasons why software testing has gained so much of importance in the field of information technology. Firstly, testing helps in reducing the overall cost of     the software development project. If testing is ignored in the initial development stages to save a small amount of money then it may turn out to be a very expensive matter    later because as you move on with development process it becomes more and more difficult to trace back defects and rectifying one defect somewhere can introduce another        defect in some other module.
+    The requirement is finalized after several discussions with the client. Testing ensures that the software behaves and looks exactly like what is mentioned in the               requirements specification document, so that when software is delivered to the client there are no arguments about the variation from the original requirements. Software       testing helps in strengthening the market reputation of a company. Well tested software is of good quality and good quality means better feedback and reviews.
+    In order to achieve best results it is important to organize all your testing efforts and this is what this Software Testing Training provided by International Software        Test Institute is all about. Software testing cannot be fruitful without proper planning. To live up to the expectations of the client it is important to plan every step       carefully. A lot of things need to be considered in order plan your testing efforts. Software testing should be planned keeping budget, schedule and performance in mind in     order to achieve best results. All testing activities require planning. It is important to outline a test plan that will give in details about how each activity will be         carried out. Test plan is alsorequired to ensure that all aspects of the software are covered thoroughly and there is no repetition of testing process so that time and effort     is not wasted.The latest trend now is to involve the testing team in specification writing process. It is important that the testing team understands the requirements of the client clearly as the entire development is based on the requirement defined by the client. Anything that is not in line with the requirement is a defect. So, the testing team should have a clear idea about what the final outcome of running software should be like. As a matter of fact it is important to start writing test cases in parallel to specification writing. This will help the testers analyze whether all the requirements are testable or not. When you write test cases in parallel to specification writing process you will think critically about the specifications and you will know if there is an issue with the requirement or if there is something that cannot be developed
 
 </div>
 
 # HW10: Ex 15.10
 
-<div style = "color:red">
+
     
 ### 15.10  The reuse of software raises a number of copyright and intellectual property issues. If a customer pays the software contractor to develop a system, who has the right to reuse the developed code? Does the software contractor have the right to use that code as a basis for a generic component? What payment mechanisms might be used to reimburse providers of reusable components? Discuss these issues and other ethical issues associated with the reuse of software.
 
-As a student who taken many classes for example grpahic design , me and my classmante disccused problems before in the design industry with confusion as to who has rights to a created product. Software reuse seems like a similar issue and I think there will forever be a debate between groups who want to share everything and groups who want acknowledgement of their achievements and therefore the rights to their own software. The former group will argue that they have built working software and its reuse is important in order to save time and expenditure on creating more software that works the same way in a future product. The latter group will argue that they have the sole right to reuse software that they developed. 
+    <div style = "color:red">
+    As a student who taken many classes for example grpahic design , me and my classmante disccused problems before in the design industry with confusion as to who has rights       to a created product. Software reuse seems like a similar issue and I think there will forever be a debate between groups who want to share everything and groups who want       acknowledgement of their achievements and therefore the rights to their own software. The former group will argue that they have built working software and its reuse is         important in order to save time and expenditure on creating more software that works the same way in a future product. The latter group will argue that they have the sole       right to reuse software that they developed. 
 
-I think, at this point in my student career , that I at least believe in rewriting the code portion of software. I think it is better to go over old solutions and improve them, even if they end up performing the same tasks as the older version. Otherwise, how is code ever going to improve if we just copy old solutions and never learn from them?
+    I think, at this point in my student career , that I at least believe in rewriting the code portion of software. I think it is better to go over old solutions and improve      them, even if they end up performing the same tasks as the older version. Otherwise, how is code ever going to improve if we just copy old solutions and never learn from        them?
 </div>
 # HW11: Chapter 9"
 
 ### 9.8 Briefly describe the three main types of software maintenance. Why is it sometimes difficult to distinguish between them?
 
-<div style = "color:red">
-Bug Fixing - this is repairing faults found in the software after it has been launched. The bugs are there possibly because testing was not as thorough as it should have been or clients have exposed bugs by using the software in unexpected ways. Coding errors, design errors, and requirement errors are the least, middle, and most expensive to correct, respectively. 
-Modifying software to work in a new environment - when the hardware or platform that the system was built to run on changes, then the software must change as well in order to be compatible and avoid being obsolete.
-Implementing new or changed requirements - software must be updated or changed so that it conforms with any new requirements. 
-It is sometimes difficult to distinguish between the different types of maintenance because they are often given different names and also because faults that arise within a system can maybe have overlapping maintenance requirements. 
+    <div style = "color:red">
+    Bug Fixing - this is repairing faults found in the software after it has been launched. The bugs are there possibly because testing was not as thorough as it should have       been or clients have exposed bugs by using the software in unexpected ways. Coding errors, design errors, and requirement errors are the least, middle, and most expensive       to correct, respectively. 
+    Modifying software to work in a new environment - when the hardware or platform that the system was built to run on changes, then the software must change as well in order     to be compatible and avoid being obsolete.
+    Implementing new or changed requirements - software must be updated or changed so that it conforms with any new requirements. 
+    It is sometimes difficult to distinguish between the different types of maintenance because they are often given different names and also because faults that arise within a    system can maybe have overlapping maintenance requirements. 
 
 </div>
 ### 9.10  Do software engineers have a professional responsibility to develop code that can be easily maintained even if their employer does not explicitly request it?
 
 <div style = "color:red">
     
-Yes definitely! Software development and maintenance are not separate activities. It is important to keep in mind how a system will need to be maintained if, for example, it is a system that is meant to last a long time and will have a revolving-door of developers working on it. A software developer who cares about the quality of their work will want to reduce the future cost of maintaining their software. According to the textbook, they can do this by using "Good software engineering techniques such as precise specification, test-first development, the use of object-oriented development, and configuration management" to help reduce the cost of future maintenance (Sommerville 259).  The ACM Software Engineering Code of Ethics says that a software engineer must "promote an ethical approach to the practice of the profession". This can only by done by carefully constructing software that is in the best interests of the employer (even if they do not require it), the client (who will have to pay for future maintenance), and the public (who want to use the software).  
+    Yes definitely! Software development and maintenance are not separate activities. It is important to keep in mind how a system will need to be maintained if, for example, it is a system that is meant to last a long time and will have a revolving-door of developers working on it. A software developer who cares about the quality of their work will want to reduce the future cost of maintaining their software. According to the textbook, they can do this by using "Good software engineering techniques such as precise specification, test-first development, the use of object-oriented development, and configuration management" to help reduce the cost of future maintenance (Sommerville 259).  The ACM Software Engineering Code of Ethics says that a software engineer must "promote an ethical approach to the practice of the profession". This can only by done by carefully constructing software that is in the best interests of the employer (even if they do not require it), the client (who will have to pay for future maintenance), and the public (who want to use the software).  
 
 </div>
 
@@ -284,7 +283,7 @@ Yes definitely! Software development and maintenance are not separate activities
 
 ### 16.9 > Design the interfaces of components that might be used in a system for an emergency control room. You should design interfaces for a call-logging component that records calls made, and a vehicle discovery component that, given a post-code (zip code) and an incident type, finds the nearest suitable vehicle to be dispatched to the incident.
 
-![image-asset.png](/ image-asset.png "image-asset.png")
+![image-asset.png](/image-asset.png "image-asset.png")
 
 
 # "HW13: Chapter 17"
@@ -292,92 +291,94 @@ Yes definitely! Software development and maintenance are not separate activities
 
 <div style = "color:red">
     
-Security -Information is being moved remotely once the company switches to using remote software.  When information was being transferred locally the security belonged only to the company.  The information being transferred through SaaS goes from the company then to the SaaS.  Information can be at risk if not thoroughly protected.  Security issues can be reduced if the SaaS has a up to date security procedures, or a third party can be hired to maintain security.
-Redundancy –  If the server or system of that runs the remote service goes down and fails, the ability for companies to continue to function is a must.  Having a backup system is with minimal functionality or a desktop version can be used until the system is back up.
-Connectivity – Since the software will be remotely used, the use of the software is no longer in the companies control.  They are completely in the hands of their internet provider as which is the speed that they can access the information.  There is no fool proof plan for this, internet connections are stable most times, but will go out from time to time.  If it happens often, changing providers may be the answer.
+    Security -Information is being moved remotely once the company switches to using remote software.  When information was being transferred locally the security belonged only to the company.  The information being transferred through SaaS goes from the company then to the SaaS.  Information can be at risk if not thoroughly protected.  Security issues can be reduced if the SaaS has a up to date security procedures, or a third party can be hired to maintain security.
+    Redundancy –  If the server or system of that runs the remote service goes down and fails, the ability for companies to continue to function is a must.  Having a backup system is with minimal functionality or a desktop version can be used until the system is back up.
+    Connectivity – Since the software will be remotely used, the use of the software is no longer in the companies control.  They are completely in the hands of their internet provider as which is the speed that they can access the information.  There is no fool proof plan for this, internet connections are stable most times, but will go out from time to time.  If it happens often, changing providers may be the answer.
 </div>
 
 # HW 14: Chapter 18"
 ### 18.4. Define an interface specification for the Currency Converter and Check credit rating services shown in Figure 18.7
-<div style = "color:red">
-Currency Converter:
-utility service
-task-oriented
-not independent; relies on access to current exchange rates
-state not stored
-Interface:
-<interface name = “currency-converter” >
-  <operation name = “get-conversion” pattern = “wsdlns: in-out”>
-    <input messageLabel = “In” element = “c-conv:from-amt” />
-    <input messageLabel = “In” element = “c-conv:from-curr” />
-    <input messageLabel = “In” element = “c-conv:to-curr” />
-    <output messageLabel = “Out” element = “c-conv:to-amt” />
-    <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
-  </operation>
-</interface>
-REST:
-no security required, ease of access primary importance
-Example url-based REST implementation:
-baseurl/ ? amount= VALUE & from= CURRENCY & to= CURRENCY
-e.g. <www.example.com/currency-converter/?amount=123-45&from=USD&to=JPY> to convert 123.45 US Dollars to Japanese Yen
-Credit Rating:
-more secure, autentication required(?)
-business service
-task-oriented
-not independent; relies on access to credit monitoring systems
-state not stored
-Interface:
-<interface name = “credit-retriever” >
-  <operation name = “get-credit” pattern = “wsdlns: in-out”>
-    <input messageLabel = “In” element = “c-conv:user-ID” />
-    <input messageLabel = “In” element = “c-conv:password” />
-    <input messageLabel = “In” element = “c-conv:target-ssn” />
-    <output messageLabel = “Out” element = “c-conv:cred-score” />
-    <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
-  </operation>
-</interface>
-SOAP:
-Should require authentication & more advanced user logging
-Shouldn’t be URL-based due to the inherent security required regarding usage of SSNs
-Must track users & permissions within the system
-</div>
+     <div style = "color:red">
+    Currency Converter:
+    utility service
+    task-oriented
+    not independent; relies on access to current exchange rates
+    state not stored
+    Interface:
+    <interface name = “currency-converter” >
+      <operation name = “get-conversion” pattern = “wsdlns: in-out”>
+        <input messageLabel = “In” element = “c-conv:from-amt” />
+        <input messageLabel = “In” element = “c-conv:from-curr” />
+        <input messageLabel = “In” element = “c-conv:to-curr” />
+        <output messageLabel = “Out” element = “c-conv:to-amt” />
+        <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
+      </operation>
+    </interface>
+    REST:
+    no security required, ease of access primary importance
+    Example url-based REST implementation:
+    baseurl/ ? amount= VALUE & from= CURRENCY & to= CURRENCY
+    e.g. <www.example.com/currency-converter/?amount=123-45&from=USD&to=JPY> to convert 123.45 US Dollars to Japanese Yen
+    Credit Rating:
+    more secure, autentication required(?)
+    business service
+    task-oriented
+    not independent; relies on access to credit monitoring systems
+    state not stored
+    Interface:
+    <interface name = “credit-retriever” >
+      <operation name = “get-credit” pattern = “wsdlns: in-out”>
+        <input messageLabel = “In” element = “c-conv:user-ID” />
+        <input messageLabel = “In” element = “c-conv:password” />
+        <input messageLabel = “In” element = “c-conv:target-ssn” />
+        <output messageLabel = “Out” element = “c-conv:cred-score” />
+        <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
+      </operation>
+    </interface>
+    SOAP:
+    Should require authentication & more advanced user logging
+    Shouldn’t be URL-based due to the inherent security required regarding usage of SSNs
+    Must track users & permissions within the system
+    </div>
     
 # HW15: Ex 19.3  
 ### 19.3 > Why is it impossible to infer the emergent properties of a complex system from the properties of the system components?
 
-<div style = "color:red">    
-The emergent properties of a system characterize the entire system - all of a system's components' properties are included in this as well as their ability to work together. The emergent properties include properties such as performance, reliability, usability, safety, and security. A component can often be considered reliable, safe, etc. when functioning on its own, but when it is a part of a system, those properties are not enough. Emergent properties encompass component properties as well as defining whether the components work together or not. It is difficult to distinguish emergent properties of a complex system from the system components because the emergent properties depend on the components working as expected.
+    <div style = "color:red">    
+    The emergent properties of a system characterize the entire system - all of a system's components' properties are included in this as well as their ability to work together. The emergent properties include properties such as performance, reliability, usability, safety, and security. A component can often be considered reliable, safe, etc. when functioning on its own, but when it is a part of a system, those properties are not enough. Emergent properties encompass component properties as well as defining whether the components work together or not. It is difficult to distinguish emergent properties of a complex system from the system components because the emergent properties depend on the components working as expected.
     </div>
     
  # HW16: Chapter 20 
  ### 20.10 > You work for a software company that has developed a system that provides information about consumers and that is used within a SoS by a number of other retail businesses. They pay you for services used. Discuss the ethics of changing the system interfaces without notice to coerce users into paying higher charges. Consider this question from the point of view of the company's employees, customers, and shareholders.
  
- <div style = "color:red">  
- No! This is terrible. I am sure from the shareholder perspective, they would not mind if the users were not informed of the increase in price, but this is completely unethical. A software company has a lot of power when it comes to hiding things from the public and from their customers, but they should not take advantage of this. The employees of the software company might feel uncomfortable with having to make this unethical change to the system, but will probably be unlikely to speak up in case they lose their jobs. Customers, being unaware of the change, will not have an opinion UNTIL (because it is bound to come out eventually) it is found out that the software company increased prices without notifying consumers. Then the shareholders will pretend they had no idea and blame it on the developers. The employees will probably be out of a job anyway once the consumers find out about everything, and then those employees have a stain on their record for the rest of their careers. So, all in all, it is a terrible idea, both for ethical reasons and practical ones.
+     <div style = "color:red">  
+     No! This is terrible. I am sure from the shareholder perspective, they would not mind if the users were not informed of the increase in price, but this is completely unethical. A software company has a lot of power when it comes to hiding things from the public and from their customers, but they should not take advantage of this. The employees of the software company might feel uncomfortable with having to make this unethical change to the system, but will probably be unlikely to speak up in case they lose their jobs. Customers, being unaware of the change, will not have an opinion UNTIL (because it is bound to come out eventually) it is found out that the software company increased prices without notifying consumers. Then the shareholders will pretend they had no idea and blame it on the developers. The employees will probably be out of a job anyway once the consumers find out about everything, and then those employees have a stain on their record for the rest of their careers. So, all in all, it is a terrible idea, both for ethical reasons and practical ones.
     </div>
     
     
   # "HW17: Team Progress I"
   
- <div style = "color:red">  
-  I think our team is contributing well together . I am very lucky to having hardowrking and deciated team memnbers like Clare and Kat. We are always ahead of the game and completing the deliverables before they are do . Due to the fact we are always ahead of the game and schedule meeting week in advance i never feel like we our overowkring ourselves because we giver us some much time to do the assigments . Typically Fanastic 4  team member met  every Saturday at 1pm to update everyone about our progress in the things we are working on or have not completed and are next steps after that. Being that we have been ahead we have not been metting on Saturday due to the fact we completed everthing . However, if you saw are messages you will a non stop texting making sure everyone okay. I feel due to our nature and detirmination we are not missing out from a classroom setting.  I feel that our team can produce the same quality, be that remotely or in person. To finished thing up our professor did an amazing job pciking our teams … The Fantastic 4 team is a great team ! I am glad and proud to have such detirmined and smart teammates.  We all have own unquie skills that we bring to the team . Overall i have no complaints 
+     <div style = "color:red">  
+     I think our team is contributing well together . I am very lucky to having hardowrking and deciated team memnbers like Clare and Kat. We are always ahead of the game and completing the deliverables before they are do . Due to the fact we are always ahead of the game and schedule meeting week in advance i never feel like we our overowkring ourselves because we giver us some much time to do the assigments . Typically Fanastic 4  team member met  every Saturday at 1pm to update everyone about our progress in the things we are working on or have not completed and are next steps after that. Being that we have been ahead we have not been metting on Saturday due to the fact we completed everthing . However, if you saw are messages you will a non stop texting making sure everyone okay. I feel due to our nature and detirmination we are not missing out from a classroom setting.  I feel that our team can produce the same quality, be that remotely or in person. To finished thing up our professor did an amazing job pciking our teams … The Fantastic 4 team is a great team ! I am glad and proud to have such detirmined and smart teammates.  We all have own unquie skills that we bring to the team . Overall i have no complaints 
    </div>
    
 #   HW18: Chapter 21 and Chapter 22"
 ### 21.4. Explain why an object-oriented approach to software development may not be suitable for real-time systems.
 
- <div style = "color:red">  
-Object-oriented software languages are not the best to use for real-time systems. This is because these do have have the support needed to real-time concurrency problem handlers. These do not have the support for the management of shared resources. This makes it more difficult to find, catch, and fix problems that arise.
-      </div>
+    <div style = "color:red">  
+    Object-oriented software languages are not the best to use for real-time systems. This is because these do have have the support needed to real-time concurrency problem         handlers. These do not have the support for the management of shared resources. This makes it more difficult to find, catch, and fix problems that arise.
+     </div>
       
 ###  22.6 .Fixed-price contracts, where the contractor bids a fixed price to complete a system development, may be used to move project risk from client to contractor.  If anything goes wrong, the contractor has to pay. Suggest how the use of such contracts may increase the likelihood that product risks will arise.
 
- <div style = "color:red">  
-Fixed-price contracts are attractive to potential software development clients because it guarantees them a predetermined budget and also allows for all the risk to be taken up by the contractor. Fixed-price contracts mean that the contractor takes on any extra costs that could incur because of changes in requirements or technology that affect the timeline for the project's completion. While this may be a benefit for the customer, who will have more power to change their mind and project requirements, it is much more likely that product risks will arise because of bad communication, changes in plans, and off-schedule development. And all of these problems will be up to the contractor to take care of, which does not seem like a smart business plan.
+    <div style = "color:red">  
+       Fixed-price contracts are attractive to potential software development clients because it guarantees them a predetermined budget and also allows for all the risk to be          taken up by the contractor. Fixed-price contracts mean that the contractor takes on any extra costs that could incur because of changes in requirements or technology           that affect the timeline for the project's completion. While this may be a benefit for the customer, who will have more power to change their mind and project                   requirements, it is much more likely that product risks will arise because of bad communication, changes in plans, and off-schedule development. And all of these               problems will be up to the contractor to take care of, which does not seem like a smart business plan.
 </div>
 
 # HW19: Chapter 23"
 ### Figure 23.14 shows the task durations for software product activities. Assume that a serious, unanticipated setback occurs, and instead of taking 10 days, task T5 takes 40 days. Draw up new bar chart showing how the project might be reorganized.
+
+![Screenshot 2020-12-07 233048](/Screenshot 2020-12-07 233048.png "Screenshot 2020-12-07 233048.png")
 
 
 
@@ -386,7 +387,8 @@ Fixed-price contracts are attractive to potential software development clients b
 # HW20:Team Progress II"
 
  <div style = "color:red">
-The Fantastic-Four team had some rough patches in terms of things we had to fix. We were making things complicated for ourselves when it did not have to be that complicated. Overall as the team though we are doing great. We been working together as a team and fixed the problem a sooon as we could. Some of the issues we faced where: changing the directory where the runAllTests method procees and runs. We discussed it in our methods and fixed the problem . I beleive communication is key and that what make us such a good group . After that we all came togehter and created the presentatipn and report and gave each other roles that we thought best fitted us and best suited us to talk about. The overall assesement is that  Fantastic-Four team is still in their prime like new born baby even with all the stuff thrown at us . I am glad to have Clare and Kat on my team 
+    
+    The Fantastic-Four team had some rough patches in terms of things we had to fix. We were making things complicated for ourselves when it did not have to be that complicated. Overall as the team though we are doing great. We been working together as a team and fixed the problem a sooon as we could. Some of the issues we faced where: changing the directory where the runAllTests method procees and runs. We discussed it in our methods and fixed the problem . I beleive communication is key and that what make us such a good group . After that we all came togehter and created the presentatipn and report and gave each other roles that we thought best fitted us and best suited us to talk about. The overall assesement is that  Fantastic-Four team is still in their prime like new born baby even with all the stuff thrown at us . I am glad to have Clare and Kat on my team 
 </div>
 
 # "HW21: Chapter 24"
@@ -395,14 +397,14 @@ The Fantastic-Four team had some rough patches in terms of things we had to fix.
 
 
  <div style = "color:red">
-1. They can find several faults in one pass without being concerned about interference between program faults. 
+    1. They can find several faults in one pass without being concerned about interference between program faults. 
+   
+    2. They bring a number of people with different experience of different types of errors. Hence, the team approach offers greater coverage than any individual can bring. 
 
-2. They bring a number of people with different experience of different types of errors. Hence, the team approach offers greater coverage than any individual can bring. 
+    3. They force the program author to re-examine the program in detail - this often reveals errors or misunderstandings. 
 
-3. They force the program author to re-examine the program in detail - this often reveals errors or misunderstandings. 
+    The types of errors that inspections are unlikely to find are specification errors or errors that are based on a misunderstanding of the application domain (unless there       are domain experts in the team). 
 
-The types of errors that inspections are unlikely to find are specification errors or errors that are based on a misunderstanding of the application domain (unless there are domain experts in the team). 
-
-</div>
+    </div>
 
 
