@@ -146,7 +146,7 @@ What is the difference from “Fault”, “Error” and “Failure? Well, this 
   
 </div>
 
-  ### 4.6 Suggest how an engineer responsible for drawing up a system requirements specification might keep track of the relationships between functional and non-functional requirements.’
+### 4.6 Suggest how an engineer responsible for drawing up a system requirements specification might keep track of the relationships between functional and non-functional requirements.’
 
 
  <div style = "color:red"> 
