@@ -362,3 +362,47 @@ The emergent properties of a system characterize the entire system - all of a sy
  <div style = "color:red">  
   I think our team is contributing well together . I am very lucky to having hardowrking and deciated team memnbers like Clare and Kat. We are always ahead of the game and completing the deliverables before they are do . Due to the fact we are always ahead of the game and schedule meeting week in advance i never feel like we our overowkring ourselves because we giver us some much time to do the assigments . Typically Fanastic 4  team member met  every Saturday at 1pm to update everyone about our progress in the things we are working on or have not completed and are next steps after that. Being that we have been ahead we have not been metting on Saturday due to the fact we completed everthing . However, if you saw are messages you will a non stop texting making sure everyone okay. I feel due to our nature and detirmination we are not missing out from a classroom setting.  I feel that our team can produce the same quality, be that remotely or in person. To finished thing up our professor did an amazing job pciking our teams … The Fantastic 4 team is a great team ! I am glad and proud to have such detirmined and smart teammates.  We all have own unquie skills that we bring to the team . Overall i have no complaints 
    </div>
+   
+#   HW18: Chapter 21 and Chapter 22"
+### 21.4. Explain why an object-oriented approach to software development may not be suitable for real-time systems.
+
+ <div style = "color:red">  
+Object-oriented software languages are not the best to use for real-time systems. This is because these do have have the support needed to real-time concurrency problem handlers. These do not have the support for the management of shared resources. This makes it more difficult to find, catch, and fix problems that arise.
+      </div>
+      
+###  22.6 .Fixed-price contracts, where the contractor bids a fixed price to complete a system development, may be used to move project risk from client to contractor.  If anything goes wrong, the contractor has to pay. Suggest how the use of such contracts may increase the likelihood that product risks will arise.
+
+ <div style = "color:red">  
+Fixed-price contracts are attractive to potential software development clients because it guarantees them a predetermined budget and also allows for all the risk to be taken up by the contractor. Fixed-price contracts mean that the contractor takes on any extra costs that could incur because of changes in requirements or technology that affect the timeline for the project's completion. While this may be a benefit for the customer, who will have more power to change their mind and project requirements, it is much more likely that product risks will arise because of bad communication, changes in plans, and off-schedule development. And all of these problems will be up to the contractor to take care of, which does not seem like a smart business plan.
+</div>
+
+# HW19: Chapter 23"
+### Figure 23.14 shows the task durations for software product activities. Assume that a serious, unanticipated setback occurs, and instead of taking 10 days, task T5 takes 40 days. Draw up new bar chart showing how the project might be reorganized.
+
+
+
+
+
+# HW20:Team Progress II"
+
+ <div style = "color:red">
+The Fantastic-Four team had some rough patches in terms of things we had to fix. We were making things complicated for ourselves when it did not have to be that complicated. Overall as the team though we are doing great. We been working together as a team and fixed the problem a sooon as we could. Some of the issues we faced where: changing the directory where the runAllTests method procees and runs. We discussed it in our methods and fixed the problem . I beleive communication is key and that what make us such a good group . After that we all came togehter and created the presentatipn and report and gave each other roles that we thought best fitted us and best suited us to talk about. The overall assesement is that  Fantastic-Four team is still in their prime like new born baby even with all the stuff thrown at us . I am glad to have Clare and Kat on my team 
+</div>
+
+# "HW21: Chapter 24"
+
+### 24.6. Explain why program inspections are an effective technique for discovering errors in a ­program. What types of error are unlikely to be discovered through inspections?
+
+
+ <div style = "color:red">
+1. They can find several faults in one pass without being concerned about interference between program faults. 
+
+2. They bring a number of people with different experience of different types of errors. Hence, the team approach offers greater coverage than any individual can bring. 
+
+3. They force the program author to re-examine the program in detail - this often reveals errors or misunderstandings. 
+
+The types of errors that inspections are unlikely to find are specification errors or errors that are based on a misunderstanding of the application domain (unless there are domain experts in the team). 
+
+</div>
+
+
