@@ -369,13 +369,14 @@ If a software company develops and delivers software to an external customer wit
     </div>
     
     
-  # "HW17: Team Progress I"
+  # HW17: Team Progress I"
   
   <div style = "color:red">  
   I think our team is contributing well together . I am very lucky to having hardowrking and deciated team memnbers like Clare and Kat. We are always ahead of the game and completing the deliverables before they are do . Due to the fact we are always ahead of the game and schedule meeting week in advance i never feel like we our overowkring ourselves because we giver us some much time to do the assigments . Typically Fanastic 4  team member met  every Saturday at 1pm to update everyone about our progress in the things we are working on or have not completed and are next steps after that. Being that we have been ahead we have not been metting on Saturday due to the fact we completed everthing . However, if you saw are messages you will a non stop texting making sure everyone okay. I feel due to our nature and detirmination we are not missing out from a classroom setting.  I feel that our team can produce the same quality, be that remotely or in person. To finished thing up our professor did an amazing job pciking our teams … The Fantastic 4 team is a great team ! I am glad and proud to have such detirmined and smart teammates.  We all have own unquie skills that we bring to the team . Overall i have no complaints 
    </div>
    
-#   HW18: Chapter 21 and Chapter 22"
+# HW18: Chapter 21 and Chapter 22"
+
 ### 21.4. Explain why an object-oriented approach to software development may not be suitable for real-time systems.
 
   <div style = "color:red">  
