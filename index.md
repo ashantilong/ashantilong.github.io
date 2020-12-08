@@ -246,7 +246,7 @@ If a software company develops and delivers software to an external customer wit
 
 ### Reflection
 
-   < div style = "color:red">
+    < div style = "color:red">
   
 Intro to testing explain many reasons for testing. The whole idea of intro to testing and we can conclude that every software application has some defects embedded in it       but not every defect is a threat to the system. Due to this we can accomplish a lot with software testing. Testing helps in evaluating the quality of software.
 There are many reasons why software testing has gained so much of importance in the field of information technology. Firstly, testing helps in reducing the overall cost of     the software development project. If testing is ignored in the initial development stages to save a small amount of money then it may turn out to be a very expensive matter    later because as you move on with development process it becomes more and more difficult to trace back defects and rectifying one defect somewhere can introduce another        defect in some other module.
