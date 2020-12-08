@@ -241,7 +241,6 @@ It makes me wonder why engineering interviews select so much for problem-solving
  This is not a very ethical approach. Testing is time-intensive and often leads to changes in software as the tests reveal issues. The testing period should have plenty of time devoted to it to ensure that a customer is getting, if not a totally bug-free product, at least a product that has undergone extensive testing before it was deemed appropriate to receive money for. A testing budget should also be a little bit larger because of its importance to a project. 
 
 If a software company develops and delivers software to an external customer without putting in significant testing time, then how can the software company be sure that they will get that customer back? A company can only ensure returning customers if they have put the time and effort into making their product the best it can be for the requirements asked for and tested it effectively to the best of their abilities.
-
 </div>
 
 
