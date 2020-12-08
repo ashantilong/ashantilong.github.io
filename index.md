@@ -246,14 +246,14 @@ If a software company develops and delivers software to an external customer wit
 
 ### Reflection
 
-    < div style = "color:red">
+   < div style = "color:red">
   
 Intro to testing explain many reasons for testing. The whole idea of intro to testing and we can conclude that every software application has some defects embedded in it       but not every defect is a threat to the system. Due to this we can accomplish a lot with software testing. Testing helps in evaluating the quality of software.
 There are many reasons why software testing has gained so much of importance in the field of information technology. Firstly, testing helps in reducing the overall cost of     the software development project. If testing is ignored in the initial development stages to save a small amount of money then it may turn out to be a very expensive matter    later because as you move on with development process it becomes more and more difficult to trace back defects and rectifying one defect somewhere can introduce another        defect in some other module.
 The requirement is finalized after several discussions with the client. Testing ensures that the software behaves and looks exactly like what is mentioned in the               requirements specification document, so that when software is delivered to the client there are no arguments about the variation from the original requirements. Software       testing helps in strengthening the market reputation of a company. Well tested software is of good quality and good quality means better feedback and reviews.
  In order to achieve best results it is important to organize all your testing efforts and this is what this Software Testing Training provided by International Software        Test Institute is all about. Software testing cannot be fruitful without proper planning. To live up to the expectations of the client it is important to plan every step       carefully. A lot of things need to be considered in order plan your testing efforts. Software testing should be planned keeping budget, schedule and performance in mind in     order to achieve best results. All testing activities require planning. It is important to outline a test plan that will give in details about how each activity will be         carried out. Test plan is alsorequired to ensure that all aspects of the software are covered thoroughly and there is no repetition of testing process so that time and effort   is not wasted.The latest trend now is to involve the testing team in specification writing process. It is important that the testing team understands the requirements of the client clearly as the entire development is based on the requirement defined by the client. Anything that is not in line with the requirement is a defect. So, the testing team should have a clear idea about what the final outcome of running software should be like. As a matter of fact it is important to start writing test cases in parallel to specification writing. This will help the testers analyze whether all the requirements are testable or not. When you write test cases in parallel to specification writing process you will think critically about the specifications and you will know if there is an issue with the requirement or if there is something that cannot be developed
 
-  </div>
+   </div>
 
 # HW10: Ex 15.10
 
