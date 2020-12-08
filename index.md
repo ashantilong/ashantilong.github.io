@@ -334,13 +334,20 @@ REST:
 no security required, ease of access primary importance
 Example url-based REST implementation:
 baseurl/ ? amount= VALUE & from= CURRENCY & to= CURRENCY
-e.g. <www.example.com/currency-converter/?amount=123-45&from=USD&to=JPY> to convert 123.45 US Dollars to Japanese Yen
+
+
+
+
+
+
 Credit Rating:
 more secure, autentication required(?)
 business service
 task-oriented
 not independent; relies on access to credit monitoring systems
 state not stored
+
+
 
 
 
@@ -355,6 +362,9 @@ Interface:
     <outfault messageLabel = “Out” element = “c-conv:InDataFault” />
   </operation>
 </interface>
+
+
+
 
 
 
