@@ -397,8 +397,7 @@ It makes me wonder why engineering interviews select so much for problem-solving
 
  <div style = "color:red">
    
-    
-  ` 1. They can find several faults in one pass without being concerned about interference between program faults. 
+    1. They can find several faults in one pass without being concerned about interference between program faults. 
    
     2. They bring a number of people with different experience of different types of errors. Hence, the team approach offers greater coverage than any individual can bring. 
 
@@ -406,6 +405,6 @@ It makes me wonder why engineering interviews select so much for problem-solving
 
     The types of errors that inspections are unlikely to find are specification errors or errors that are based on a misunderstanding of the application domain (unless there       are domain experts in the team). 
 
-    </div>
+   </div>
 
 
