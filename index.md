@@ -55,7 +55,16 @@ filter: Check if search operand is valid
 widgets: Prevent edits to /poll and /todo messages.
 feature request: Add green/orange presence circles to PM/mention autocompletes
 I rank them in this order because 5. is simply a feature request, this doesn’t affect the overall functioning of the project. 4. is also a simple edit to prevent edits to certain widgets with an error message. 3. Is of medium priority since it seemed to be fixed quickly, but searching with an invalid operand leads to a 400 error which is not desireable. 1. and 2. directly affect how the users interact with Zulip and the 1st regarding search history seems to cause a lot of confusion with users while 2. is also a high priority because in the issue thread, there are problems trying to re create this issue again.
+
 </div>
+
+<div syle = "color:red">
+For today’s blog, I read an article from the IEEE Software Magazine titled Google App Analysis 
+
+The author discussed hpw With the widespread use of smart phones, the importance of cellphone apps is emerging in our daily lives. The rating of an app impacts the number of downloads which may further influence the spread of the app. In order to explore the underlying behavior of apps' ratings, a research was conducted analyzing rating related data that involves multifaceted factors. Establishing statistical models such as “Generalized Additive Model” provides a conceptual framework for the study and is instrumental in predicting the missing ratings. A number of conclusions are drawn from these models including identification of the non-linear relationship between log installs and ratings, and the positive relationship between log reviews and ratings given number of log installs.
+
+</div>
+
 
 
 
