@@ -31,7 +31,7 @@ Over time label were added and removed so zulip community would take notice; how
 ## EX. 6.5 Figure out how to create a new account on the bug tracker of your chosen project. You’ll need that account very soon.
 <div style = "color:red">
 I have created an account on Github, and a zulip account while also joining the zulip organization. I claimed Csharp code doesn't support string interpolating #17265 which can be seen here : https://github.com/zulip/zulip/issues/17265
-    
+</div>  
 ## EX. 6.6 Go through your project’s bug tracker and find a bug that you think you might be able to reproduce – and then try to reproduce it in the latest build. Take careful notes. Report your experiences as a comment to the bug. If you can reproduce the bug, great! Give as much information as you can. If you can’t reproduce the bug, great! Give as much information as you can, and ask the original reporter if there are other steps you might be able to take to reproduce the bug.
 
 <div style = "color:red">
