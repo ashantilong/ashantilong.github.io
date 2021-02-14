@@ -58,6 +58,8 @@ I rank them in this order because 5. is simply a feature request, this doesn’t
 
 </div>
 
+# "What's Happening?"
+
 <div syle = "color:red">
 For today’s blog, I read an article from the IEEE Software Magazine titled Google App Analysis 
 
