@@ -60,7 +60,7 @@ I rank them in this order because 5. is simply a feature request, this doesn’t
 
 # "What's Happening?"
 
-<div syle = "color:red">
+<div style = "color:red">
 For today’s blog, I read an article from the IEEE Software Magazine titled Google App Analysis 
     
 
@@ -70,6 +70,79 @@ The author discussed how With the widespread use of smart phones, the importance
 
 
 </div>
+
+
+# "Stupid or Solid?"
+
+<div style = "color:red"> 
+
+Today blog review on  S.T.U.P.I.D. and S.O.L.I.D. and I’ll be giving a quick review about what .
+
+
+ S.T.U.P.I.D can be broken down into:
+
+* Singleton
+- Singleton are generally used as a global instance, why is that so bad? Because you hide the dependencies of your application in your code, instead of exposing them through the interfaces. Making something global to avoid passing it around is a code smell. They violate the single responsibility principle: by virtue of the fact that they control their own creation and lifecycle.They inherently cause code to be tightly coupled. This makes faking them out under test rather difficult in many cases. They carry state around for the lifetime of the application. Another hit to testing since you can end up with a situation where tests need to be ordered which is a big no no for unit tests. Why? Because each unit test should be independent from the other.
+* Tight Coupling
+-Tight coupling is when a group of classes are highly dependent on one another. This scenario arises when a class assumes too many responsibilities, or when one concern is spread over many classes rather than having its own class.In general, Tight Coupling is bad in but most of the time, because it reduces flexibility and re-usability of code, it makes changes much more difficult, it impedes test ability etc. loose coupling is a better choice because A loosely coupled will help you when your application need to change or grow
+
+* Untestability
+ -Software testability is the degree to which a software artifact (i.e. a software system, software module, requirements- or design document) supports testing in a given test context. If the testability of the software artifact is high, then finding faults in the system (if it has any) by means of testing is easier bug it untestable then we have problem and can cost a lot .
+
+
+* Premature Optimization
+ - I don't believe early optimization is bad in situations where you know you will hit performance issues. For example, I write surface modelling and analysis software, where I regularly deal with tens of millions of entities. Planning for optimal performance at design stage is far superior than late optimization of a weak design. Another thing to consider is how your application will scale in the future. If you consider that your code will have a long life, optimizing performance at design stage is also a good idea. In my experience, late optimization provides meagre rewards at a high price. Optimizing at design stage, through algorithm selection and tweaking, is way better. Depending on a profiler to understand how your code works is not a great way of getting high performance code, you should know this beforehand.
+
+
+* Indescriptive Naming
+- Indescriptive class/field/method naming is a bad code smell. When you write your application, please, don’t forget that another people may maintain your code in future. If  you fully understand the abbreviations in your methods, other people may not be on the same wavelength with you. Moreover, today you remember these unassociated names but what if you need to update your application in a few months or years? To my mind, you will be the first victim of absence naming strategy.
+
+
+* Duplication
+ - Please, be faithful to DRY (Don’t repeat yourself) principle. You enhance complexity of alteration in application by making duplication in the code. It leads to situation when you need to spend a lot of time, alter different  classes (in the most cases they are not) to change some small piece of logic. One of the reason of code duplication is tight coupling. If your code is tightly coupled, you just can’t reuse it. And here comes your duplication.
+
+
+Now that we have reviewed what stupid code is, lets examine the principles of solid code!
+
+* Single Responsibility Principle
+-The single responsibility principle provides another substantial benefit. Classes, software components and microservices that have only one responsibility are much easier to explain, understand and implement than the ones that provide a solution for everything
+
+* Open Closed Principle
+ - Open/Closed Principle as: “Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.” The general idea of this principle is great. It tells you to write your code so that you will be able to add new functionality without changing the existing code
+ 
+* Liskov Substitution Principle
+ - practical software development. The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. That requires the objects of your subclasses to behave in the same way as the objects of your superclass.
+* interface Segregation Principle
+ - principle was first defined by Robert C. Martin as: “Clients should not be forced to depend upon interfaces that they do not use“. The goal of this principle is to reduce the side effects of using larger interfaces by breaking application interfaces into smaller ones.
+* Dependency Inversion Principle
+ -states that high level modules should not depend on low level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions.
+
+
+We have now summarized these two set of principles and a main lesson learned from this article 
+
+</div>
+
+# Release early and often
+
+In this blog post will reflect on my readings from Teching Open Source chapters 8 and 9.
+
+This chapter discussed the importance of documentation in code. When looking back at code you wrote weeks or months ago, the more descriptive your comments are the better you or others can understand your work. This documentation can come in multiple forms, such as ad hoc comments while you are working on code or more refined documentation that is user facing.
+
+The waterfall method is useful to those new to technical writing.
+
+Planning
+Content
+Writing
+Internationalisation/Localisation
+Review If you are ever stuck and think writing documentation is a daunting task, start at the top of the waterfall and take it from there.
+Documentation can also be used as a first step to getting involved in a project. It helps you understand the larger project as a whole (like Zulip in my case). Usually developers resist writing documentation because the tools are painful to use or writng is not a main skill. To combat these obstacles we can employ a couple of methods. One is to treat writng as a brain dump of ideas and worry about the quality of writing later. Enabling non-developers to add significant contributions to documentation saves developers from the actual work of writing. Collaboration is also key in FOSS documentation
+
+We can also categorize documentation such as documenting a technical community proceeding like a conference.
+
+Chapter 9
+As the closing chapter of this online textbook, the authors reflect on the phrase unanimous with FOSS ‘Release early and often.’ This applies to the textbook as well which aimed to encourage students to particpate meaningfully in FOSS and empower professors to bridge the gap between FOSS and students.
+
+
 
 
 
