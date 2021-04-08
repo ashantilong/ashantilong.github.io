@@ -136,21 +136,21 @@ The single responsibility principle provides another substantial benefit. Classe
  
  </div>
  
- <div>
+ <div style = "color:red" >
  3. Liskov Substitution Principle
  
  practical software development. The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. That requires the objects of your subclasses to behave in the same way as the objects of your superclass.
  
  </div>
  
- <div>
+ <div style = "color:red" >
  4. Interface Segregation Principle
 
 principle was first defined by Robert C. Martin as: “Clients should not be forced to depend upon interfaces that they do not use“. The goal of this principle is to reduce the side effects of using larger interfaces by breaking application interfaces into smaller ones.
 
 </div>
 
-<div>
+<div style = "color:red">
 5. Dependency Inversion Principle
  
  states that high level modules should not depend on low level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions.
