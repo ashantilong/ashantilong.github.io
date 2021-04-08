@@ -238,6 +238,20 @@ Also keep in mind what service you will use to license this product. Some altern
 </div>
 
 
+# "Meeting Charleston"
+
+<div style = "color:red">
+
+I went to the gathering for the  fellow CS CofC alumni. They showed various panels , It was aweosme that the speakers all slightly different backgrounds and interests, From what i could remeneber a few of their profession was systems engineering, product design, and network security. Listening to thier journey about how they started their profession and the advice they had was awesome.  Someone ask the  panelists if they had any thoughts on graduate school or just getting cerfication . One said there was really nothing differnt other than making connection when younger  Another talk abou the duration of cerifcate and it depends on what you want to do where certicate is more helpful. Then the last  panelist  thoguht of graduate school as pointless because why you are studying old topic the world of design is changing , and could be trending towards something new so you would be left behind , where your portfolio matters more than your book smarts. Overall it was a good meeting and it was good to hear professional opinion 
+
+</div>
+
+
+
+
+
+
+
 
 
 
