@@ -160,7 +160,6 @@ We have now summarized these two set of principles and a main lesson learned fro
 
 </div>
 
-</div>
 
 
 # Release early and often
