@@ -161,27 +161,25 @@ The authors is discussing the phrase unanimous with FOSS ‘Release early and of
 </div>
 
 
-
-    
 # Chapter 5 
 
 <div style = "color:red">
 
 Chapter 5 of Client-Centered Software Development revolves around Domain Class Development. This involes finding and resuing code from earlier open source projects and coding some classes from scratch. This chapter also covers unit testing principles.
 
-Reusing External Legacy Code
+1. Reusing External Legacy Code
 Class can reoccur in mutiple location in the domain. Person class is an example. Reusing External Legacy gode say you shoukld look in dsomain for similarly well devloped solutions that fit its needs.
 
-Reusing Internal Legacy Code
+2. Reusing Internal Legacy Code
 Talking about uppdated old open source products to meet requriiments for additional requirements and fix serious shortcomings in the product. 
 
-Coding Domain Classes from Scratch
+3. Coding Domain Classes from Scratch
  Domain tend to be very special . Most of the time unquire domain come withint the same  organization.
 
-Adding Functionality with Constructors and Getters
+4. Adding Functionality with Constructors and Getters
 Not all functions in a new class can be predicted but Getters and setters are used to protect your data, particularly when creating classes. For each instance variable, a getter method returns its value while a setter method sets or updates its value.
 
-Software Testing
+5. Software Testing
 
 The importance of software testing and quality assurance is of high value in a software development cycle. Both of the processes refines the whole process and ensure superior quality to the product. Also, it reduces maintenance costs and provides better usability and enhanced functionality.
 
