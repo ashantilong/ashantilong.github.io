@@ -84,28 +84,40 @@ Today blog review on  S.T.U.P.I.D. and S.O.L.I.D. and I’ll be giving a quick r
 
 Singleton
 
-* Singleton are generally used as a global instance, why is that so bad? Because you hide the dependencies of your application in your code, instead of exposing them through the interfaces. Making something global to avoid passing it around is a code smell. They violate the single responsibility principle: by virtue of the fact that they control their own creation and lifecycle.They inherently cause code to be tightly coupled. This makes faking them out under test rather difficult in many cases. They carry state around for the lifetime of the application. Another hit to testing since you can end up with a situation where tests need to be ordered which is a big no no for unit tests. Why? Because each unit test should be independent from the other.
- Tight Coupling
+<div>
+1. Singleton are generally used as a global instance, why is that so bad? Because you hide the dependencies of your application in your code, instead of exposing them through the interfaces. Making something global to avoid passing it around is a code smell. They violate the single responsibility principle: by virtue of the fact that they control their own creation and lifecycle.They inherently cause code to be tightly coupled. This makes faking them out under test rather difficult in many cases. They carry state around for the lifetime of the application. Another hit to testing since you can end up with a situation where tests need to be ordered which is a big no no for unit tests. Why? Because each unit test should be independent from the other.
 
+</div>
 
-* Tight coupling is when a group of classes are highly dependent on one another. This scenario arises when a class assumes too many responsibilities, or when one concern is spread over many classes rather than having its own class.In general, Tight Coupling is bad in but most of the time, because it reduces flexibility and re-usability of code, it makes changes much more difficult, it impedes test ability etc. loose coupling is a better choice because A loosely coupled will help you when your application need to change or grow
+<div>
 
-* Untestability
+2. Tight Coupling
+
+Tight coupling is when a group of classes are highly dependent on one another. This scenario arises when a class assumes too many responsibilities, or when one concern is spread over many classes rather than having its own class.In general, Tight Coupling is bad in but most of the time, because it reduces flexibility and re-usability of code, it makes changes much more difficult, it impedes test ability etc. loose coupling is a better choice because A loosely coupled will help you when your application need to change or grow
+
+</div>
+
+<div>
+3.  Untestability
  Software testability is the degree to which a software artifact (i.e. a software system, software module, requirements- or design document) supports testing in a given test context. If the testability of the software artifact is high, then finding faults in the system (if it has any) by means of testing is easier bug it untestable then we have problem and can cost a lot .
+</div>
 
-
-* Premature Optimization
+<div>
+4. Premature Optimization
 I don't believe early optimization is bad in situations where you know you will hit performance issues. For example, I write surface modelling and analysis software, where I regularly deal with tens of millions of entities. Planning for optimal performance at design stage is far superior than late optimization of a weak design. Another thing to consider is how your application will scale in the future. If you consider that your code will have a long life, optimizing performance at design stage is also a good idea. In my experience, late optimization provides meagre rewards at a high price. Optimizing at design stage, through algorithm selection and tweaking, is way better. Depending on a profiler to understand how your code works is not a great way of getting high performance code, you should know this beforehand.
 
+</div>
 
- Indescriptive Naming
-- Indescriptive class/field/method naming is a bad code smell. When you write your application, please, don’t forget that another people may maintain your code in future. If  you fully understand the abbreviations in your methods, other people may not be on the same wavelength with you. Moreover, today you remember these unassociated names but what if you need to update your application in a few months or years? To my mind, you will be the first victim of absence naming strategy.
+<div>
+5. Indescriptive Naming
+ Indescriptive class/field/method naming is a bad code smell. When you write your application, please, don’t forget that another people may maintain your code in future. If  you fully understand the abbreviations in your methods, other people may not be on the same wavelength with you. Moreover, today you remember these unassociated names but what if you need to update your application in a few months or years? To my mind, you will be the first victim of absence naming strategy.
+</div>
 
-
+<div>
 * Duplication
 
 Please, be faithful to DRY (Don’t repeat yourself) principle. You enhance complexity of alteration in application by making duplication in the code. It leads to situation when you need to spend a lot of time, alter different  classes (in the most cases they are not) to change some small piece of logic. One of the reason of code duplication is tight coupling. If your code is tightly coupled, you just can’t reuse it. And here comes your duplication.
-
+</div>
 
 Now that we have reviewed what stupid code is, lets examine the principles of solid code!
 
