@@ -72,7 +72,7 @@ The author discussed how With the widespread use of smart phones, the importance
 </div>
 
 
-# "Stupid or Solid?"
+# Stupid or Solid?
 
 <div style = "color:red">
 
@@ -82,20 +82,23 @@ Today blog review on  S.T.U.P.I.D. and S.O.L.I.D. and I’ll be giving a quick r
 
  S.T.U.P.I.D can be broken down into:
 
-* Singleton
-- Singleton are generally used as a global instance, why is that so bad? Because you hide the dependencies of your application in your code, instead of exposing them through the interfaces. Making something global to avoid passing it around is a code smell. They violate the single responsibility principle: by virtue of the fact that they control their own creation and lifecycle.They inherently cause code to be tightly coupled. This makes faking them out under test rather difficult in many cases. They carry state around for the lifetime of the application. Another hit to testing since you can end up with a situation where tests need to be ordered which is a big no no for unit tests. Why? Because each unit test should be independent from the other.
-* Tight Coupling
--Tight coupling is when a group of classes are highly dependent on one another. This scenario arises when a class assumes too many responsibilities, or when one concern is spread over many classes rather than having its own class.In general, Tight Coupling is bad in but most of the time, because it reduces flexibility and re-usability of code, it makes changes much more difficult, it impedes test ability etc. loose coupling is a better choice because A loosely coupled will help you when your application need to change or grow
+Singleton
+
+* Singleton are generally used as a global instance, why is that so bad? Because you hide the dependencies of your application in your code, instead of exposing them through the interfaces. Making something global to avoid passing it around is a code smell. They violate the single responsibility principle: by virtue of the fact that they control their own creation and lifecycle.They inherently cause code to be tightly coupled. This makes faking them out under test rather difficult in many cases. They carry state around for the lifetime of the application. Another hit to testing since you can end up with a situation where tests need to be ordered which is a big no no for unit tests. Why? Because each unit test should be independent from the other.
+ Tight Coupling
+
+
+* Tight coupling is when a group of classes are highly dependent on one another. This scenario arises when a class assumes too many responsibilities, or when one concern is spread over many classes rather than having its own class.In general, Tight Coupling is bad in but most of the time, because it reduces flexibility and re-usability of code, it makes changes much more difficult, it impedes test ability etc. loose coupling is a better choice because A loosely coupled will help you when your application need to change or grow
 
 * Untestability
- -Software testability is the degree to which a software artifact (i.e. a software system, software module, requirements- or design document) supports testing in a given test context. If the testability of the software artifact is high, then finding faults in the system (if it has any) by means of testing is easier bug it untestable then we have problem and can cost a lot .
+ Software testability is the degree to which a software artifact (i.e. a software system, software module, requirements- or design document) supports testing in a given test context. If the testability of the software artifact is high, then finding faults in the system (if it has any) by means of testing is easier bug it untestable then we have problem and can cost a lot .
 
 
 * Premature Optimization
- - I don't believe early optimization is bad in situations where you know you will hit performance issues. For example, I write surface modelling and analysis software, where I regularly deal with tens of millions of entities. Planning for optimal performance at design stage is far superior than late optimization of a weak design. Another thing to consider is how your application will scale in the future. If you consider that your code will have a long life, optimizing performance at design stage is also a good idea. In my experience, late optimization provides meagre rewards at a high price. Optimizing at design stage, through algorithm selection and tweaking, is way better. Depending on a profiler to understand how your code works is not a great way of getting high performance code, you should know this beforehand.
+I don't believe early optimization is bad in situations where you know you will hit performance issues. For example, I write surface modelling and analysis software, where I regularly deal with tens of millions of entities. Planning for optimal performance at design stage is far superior than late optimization of a weak design. Another thing to consider is how your application will scale in the future. If you consider that your code will have a long life, optimizing performance at design stage is also a good idea. In my experience, late optimization provides meagre rewards at a high price. Optimizing at design stage, through algorithm selection and tweaking, is way better. Depending on a profiler to understand how your code works is not a great way of getting high performance code, you should know this beforehand.
 
 
-* Indescriptive Naming
+ Indescriptive Naming
 - Indescriptive class/field/method naming is a bad code smell. When you write your application, please, don’t forget that another people may maintain your code in future. If  you fully understand the abbreviations in your methods, other people may not be on the same wavelength with you. Moreover, today you remember these unassociated names but what if you need to update your application in a few months or years? To my mind, you will be the first victim of absence naming strategy.
 
 
@@ -110,20 +113,21 @@ Now that we have reviewed what stupid code is, lets examine the principles of so
 
 The single responsibility principle provides another substantial benefit. Classes, software components and microservices that have only one responsibility are much easier to explain, understand and implement than the ones that provide a solution for everything
 
+
 * Open Closed Principle
  
  Open/Closed Principle as: “Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.” The general idea of this principle is great. It tells you to write your code so that you will be able to add new functionality without changing the existing code
  
-* Liskov Substitution Principle
+ * Liskov Substitution Principle
  
  practical software development. The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. That requires the objects of your subclasses to behave in the same way as the objects of your superclass.
  
-* interface Segregation Principle
+ * Interface Segregation Principle
 
 principle was first defined by Robert C. Martin as: “Clients should not be forced to depend upon interfaces that they do not use“. The goal of this principle is to reduce the side effects of using larger interfaces by breaking application interfaces into smaller ones.
 
 * Dependency Inversion Principle
-* 
+ 
  states that high level modules should not depend on low level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions.
 
 
@@ -157,9 +161,11 @@ The authors is discussing the phrase unanimous with FOSS ‘Release early and of
 </div>
 
 
-<div style = "color:red">
+
     
-# "Chapter 5 "
+# Chapter 5 
+
+<div style = "color:red">
 
 Chapter 5 of Client-Centered Software Development revolves around Domain Class Development. This involes finding and resuing code from earlier open source projects and coding some classes from scratch. This chapter also covers unit testing principles.
 
