@@ -122,27 +122,54 @@ We have now summarized these two set of principles and a main lesson learned fro
 
 </div>
 
-# Release early and often
 
+# Release early and often
+<dive style = "color:red">
 In this blog post will reflect on my readings from Teching Open Source chapters 8 and 9.
 
-This chapter discussed the importance of documentation in code. When looking back at code you wrote weeks or months ago, the more descriptive your comments are the better you or others can understand your work. This documentation can come in multiple forms, such as ad hoc comments while you are working on code or more refined documentation that is user facing.
+This chapter the author disccused how important documentation is in code. Doing projects or assigment in school , going back at code during past assigment , the more you write and be descriptive your comments will be easier to read by other and yourself and you can remeneber what yoy did.
 
-The waterfall method is useful to those new to technical writing.
+Water Methon includes: Planning , Content , Writing ,Internationalisation/Localisation
 
-Planning
-Content
-Writing
-Internationalisation/Localisation
-Review If you are ever stuck and think writing documentation is a daunting task, start at the top of the waterfall and take it from there.
-Documentation can also be used as a first step to getting involved in a project. It helps you understand the larger project as a whole (like Zulip in my case). Usually developers resist writing documentation because the tools are painful to use or writng is not a main skill. To combat these obstacles we can employ a couple of methods. One is to treat writng as a brain dump of ideas and worry about the quality of writing later. Enabling non-developers to add significant contributions to documentation saves developers from the actual work of writing. Collaboration is also key in FOSS documentation
 
-We can also categorize documentation such as documenting a technical community proceeding like a conference.
+You have written a piece of code, and released it into the world. You have done this because you think that others might find it useful. However, people need to understand why your code might be useful for them, before they decide to use it. Documentation tells people that this project is for them. If people don’t know why your project exists,
+they won’t use it. If people can’t figure out how to install your code, they won’t use it. If people can’t figure out how to use your code, won’t use it.Proper documentation provides evidence of what has transpired as well as provides information for researching discrepancies. Supporting documentation may come in paper or electronic form. In recent years, more often, official supporting documentation has moved from paper based to electronic forms.
+
 
 Chapter 9
-As the closing chapter of this online textbook, the authors reflect on the phrase unanimous with FOSS ‘Release early and often.’ This applies to the textbook as well which aimed to encourage students to particpate meaningfully in FOSS and empower professors to bridge the gap between FOSS and students.
+The authors is discussing the phrase unanimous with FOSS ‘Release early and often.’ It is a informative outlook om encourage students to particpate in meaningful FOSS and professors' should break the threshold and adopt this practice for students.
+</div>
+
+Vdiv style = "color:red">
+# "Chapter 6"
+
+Chapter 5 of Client-Centered Software Development revolves around Domain Class Development. This involes finding and resuing code from earlier open source projects and coding some classes from scratch. This chapter also covers unit testing principles.
+
+Reusing External Legacy Code
+Class can reoccur in mutiple location in the domain. Person class is an example. Reusing External Legacy gode say you shoukld look in dsomain for similarly well devloped solutions that fit its needs.
+
+Reusing Internal Legacy Code
+Talking about uppdated old open source products to meet requriiments for additional requirements and fix serious shortcomings in the product. 
+
+Coding Domain Classes from Scratch
+ Domain tend to be very special . Most of the time unquire domain come withint the same  organization.
+
+Adding Functionality with Constructors and Getters
+Not all functions in a new class can be predicted but Getters and setters are used to protect your data, particularly when creating classes. For each instance variable, a getter method returns its value while a setter method sets or updates its value.
+
+Software Testing
+
+The importance of software testing and quality assurance is of high value in a software development cycle. Both of the processes refines the whole process and ensure superior quality to the product. Also, it reduces maintenance costs and provides better usability and enhanced functionality.
 
 
+Designing Test Cases
+
+A good test case design technique is crucial to improving the quality of the software testing process. This helps to improve the overall quality and effectiveness of the released software. Following are the test case design techniques to ensure high-quality of the released software
+
+Debugging
+Debugging has many benefits such as: It reports an error condition immediately. This allows earlier detection of an error and makes the process of software development stress-free and unproblematic. It also provides maximum useful information of data structures and allows easy interpretation
+
+</div>
 
 
 
