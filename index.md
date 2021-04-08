@@ -117,28 +117,41 @@ I don't believe early optimization is bad in situations where you know you will 
 * Duplication
 
 Please, be faithful to DRY (Don’t repeat yourself) principle. You enhance complexity of alteration in application by making duplication in the code. It leads to situation when you need to spend a lot of time, alter different  classes (in the most cases they are not) to change some small piece of logic. One of the reason of code duplication is tight coupling. If your code is tightly coupled, you just can’t reuse it. And here comes your duplication.
+
 </div>
 
 Now that we have reviewed what stupid code is, lets examine the principles of solid code!
 
-* Single Responsibility Principle
+<div>
+1. Single Responsibility Principle
 
 The single responsibility principle provides another substantial benefit. Classes, software components and microservices that have only one responsibility are much easier to explain, understand and implement than the ones that provide a solution for everything
 
+</div>
 
-* Open Closed Principle
+
+2. Open Closed Principle
  
  Open/Closed Principle as: “Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.” The general idea of this principle is great. It tells you to write your code so that you will be able to add new functionality without changing the existing code
  
- * Liskov Substitution Principle
+ </div>
+ 
+ <div>
+ 3. Liskov Substitution Principle
  
  practical software development. The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. That requires the objects of your subclasses to behave in the same way as the objects of your superclass.
  
- * Interface Segregation Principle
+ </div>
+ 
+ <div>
+ 4. Interface Segregation Principle
 
 principle was first defined by Robert C. Martin as: “Clients should not be forced to depend upon interfaces that they do not use“. The goal of this principle is to reduce the side effects of using larger interfaces by breaking application interfaces into smaller ones.
 
-* Dependency Inversion Principle
+</div>
+
+<div>
+5. Dependency Inversion Principle
  
  states that high level modules should not depend on low level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions.
 
