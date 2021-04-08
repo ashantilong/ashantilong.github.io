@@ -140,8 +140,8 @@ Chapter 9
 The authors is discussing the phrase unanimous with FOSS ‘Release early and often.’ It is a informative outlook om encourage students to particpate in meaningful FOSS and professors' should break the threshold and adopt this practice for students.
 </div>
 
-Vdiv style = "color:red">
-# "Chapter 6"
+<div style = "color:red">
+# "Chapter 5 "
 
 Chapter 5 of Client-Centered Software Development revolves around Domain Class Development. This involes finding and resuing code from earlier open source projects and coding some classes from scratch. This chapter also covers unit testing principles.
 
@@ -171,6 +171,71 @@ Debugging has many benefits such as: It reports an error condition immediately. 
 
 </div>
 
+
+# "Chapter 6 "
+
+<div style = "color:red">
+
+Database Principles
+A database has the following properties: It is a representation of some aspect of the real world or a collection of data elements (facts) representing real-world information. A database is logical, coherent and internally consistent. A database is designed, built and populated with data for a specific purpose.
+
+
+Connecting to a Program
+It will display every connection with the associated process. You may also use a program called tcpview. Just run the executable and it will show you all of the current connections being made by your system. You will need to be an administrator in order to see all of the connections being made but if you are infected with something serious or a rootkit, the connections may also be hidden. If you really wanted a fool proof way, you would need to setup a gateway or proxy of some sort for the machine.
+
+
+Database Security
+Database security measures include authentication, the process of verifying if a user's credentials match those stored in your database, and permitting only authenticated users access to your data, networks, and database platform.
+
+Server level
+Database level
+Table level
+Column level
+Testing
+There is a three step process for unit testing each database module.
+
+Setup - create objects and insert new rows in the table, C
+Test - replace and update rows in the table, R U
+Teardown - D
+
+</div>
+
+# "Chapter  9"
+
+
+### Chapter 7
+<div style = "color:red">
+
+
+Chapter 7 talks a lot about  User Interface Design. Talks about the general guidelines which include:
+
+Task Oriented - can each be mapped out 
+Language - can all user understatand and read 
+Simplicity
+Navigatability
+Visual consistency
+Discoverability - no error in pages 
+Data integrity -  accuracy of data 
+Client-Server Integrity
+Security
+Documentation
+MVC Pattern
+The Model View Control pattern is used to organize UI and program files.
+
+Model - data connection
+View - user interface 
+Controller - inputs and outputs 
+
+Chapter 9
+Open-source software can also be commercialized from selling services, such as training, technical support, or consulting, rather than the software itself.
+
+Another possibility is offering open-source software in source code form only, while providing executable binaries to paying customers only, offering the commercial service of compiling and packaging of the software. Also, providing goods like physical installation media 
+
+Open-source companies using this business model successfully are, for instance RedHat,[6] IBM, SUSE, Hortonworks (for Apache Hadoop), Chef, and Percona (for open-source database software).
+
+Also keep in mind what service you will use to license this product. Some alternatives to hosting your CO-FOSS product: GitHub, GitLab, BitBucket, SourceForge
+
+</div>
 
 
 
