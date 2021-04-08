@@ -159,6 +159,7 @@ principle was first defined by Robert C. Martin as: “Clients should not be for
 We have now summarized these two set of principles and a main lesson learned from this article 
 
 </div>
+</div>
 
 
 # Release early and often
