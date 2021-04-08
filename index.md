@@ -144,6 +144,8 @@ they won’t use it. If people can’t figure out how to install your code, they
 
 Chapter 9
 The authors is discussing the phrase unanimous with FOSS ‘Release early and often.’ It is a informative outlook om encourage students to particpate in meaningful FOSS and professors' should break the threshold and adopt this practice for students.
+
+
 </div>
 
 
